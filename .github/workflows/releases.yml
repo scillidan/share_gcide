@@ -1,0 +1,64 @@
+name: Create Releases
+
+on:
+  push:
+    tags:
+      - "*"
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repositoryI
+      uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y zip
+
+    - name: Install Python packages
+      run: |
+        pip install pyglossary lxml beautifulsoup4 python-idzip tqdm
+
+    - name: Download gcide.zip from FireDict
+      run: |
+        curl -LO "http://tovotu.de/data/stardict/gcide.zip"
+
+    - name: Decompress archive
+      run: |
+        unzip gcide.zip
+
+    - name: Run pyglossary and related processing
+      run: |
+        for file in ./gcide/stardict.*; do
+          mv "$file" "./gcide/gcide.${file#./gcide/stardict.}"
+        done
+        zip -r gcide-stardict.zip gcide/
+        pyglossary ./gcide/gcide.ifo ./gcide-yomichan.zip --read-format=Stardict --write-format=Yomichan --name=GCIDE
+
+    - name: Pre-release
+      run: echo "${{ github.sha }}" > Release.txt
+
+    - name: Extract short name from github.ref
+      id: tag_short
+      run: echo "short=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      if: github.ref_type == 'tag'
+      with:
+        tag_name: ${{ github.ref }}
+        name: ${{ steps.tag_short.outputs.short }}
+        files: |
+          gcide-*.zip
+          gcide-*.txt
+          Release.txt
