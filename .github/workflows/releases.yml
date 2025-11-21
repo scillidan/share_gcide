@@ -38,14 +38,15 @@ jobs:
     - name: Decompress archive
       run: |
         unzip gcide.zip
+        mv gcide gcide-stardict
 
     - name: Run pyglossary and related processing
       run: |
-        for file in ./gcide/stardict.*; do
-          mv "$file" "./gcide/gcide.${file#./gcide/stardict.}"
+        for file in ./gcide-stardict/stardict.*; do
+          mv "$file" "./gcide-stardict/gcide-stardict.${file#./gcide-stardict/stardict.}"
         done
-        zip -r gcide-stardict.zip gcide/
-        pyglossary ./gcide/gcide.ifo ./gcide-yomichan.zip --read-format=Stardict --write-format=Yomichan --name=GCIDE
+        zip -r gcide-stardict.zip gcide-stardict/
+        pyglossary ./gcide-stardict/gcide-stardict.ifo ./gcide-yomichan.zip --read-format=Stardict --write-format=Yomichan --name=GCIDE
 
     - name: Pre-release
       run: echo "${{ github.sha }}" > Release.txt
