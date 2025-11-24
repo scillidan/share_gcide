@@ -41,11 +41,10 @@ jobs:
 
     - name: Run pyglossary and related processing
       run: |
-        mkdir temp
-        pyglossary ./gcide/gcide.ifo ./temp/gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
-        python text_format.py ./temp/gcide.txt ./temp/gcide-formatted.txt
-        pyglossary ./temp/gcide-formatted.txt ./gcide-stardict --read-format=Tabfile --write-format=Stardict --name=GCIDE
-        pyglossary ./temp/gcide-formatted.txt ./gcide-yomichan.zip --read-format=Tabfile --write-format=Yomichan --name=GCIDE
+        pyglossary ./gcide/gcide.ifo ./gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
+        python text_format.py ./gcide.txt ./gcide-formatted.txt
+        pyglossary ./gcide-formatted.txt ./gcide-stardict --read-format=Tabfile --write-format=Stardict --name=GCIDE
+        pyglossary ./gcide-formatted.txt ./gcide-yomichan.zip --read-format=Tabfile --write-format=Yomichan --name=GCIDE
 
     - name: Create zip files for Stardict sets
       run: |
