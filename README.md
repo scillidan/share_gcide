@@ -2,7 +2,9 @@
 
 [![Create Releases](https://github.com/scillidan/share_gcide/actions/workflows/releases.yml/badge.svg)](https://github.com/scillidan/share_gcide/actions/workflows/releases.yml)
 
-Data from `gcide.zip` (StarDict) on [Free StarDict dictionaries](https://tuxor1337.frama.io/firedict/dictionaries.html). I don't try using [dictmaster](https://framagit.org/tuxor1337/dictmaster) to download data from [GNU Collaborative International Dictionary of English](https://gcide.gnu.org.ua/) yet.
+Data from `gcide.zip` (StarDict) on [Free StarDict dictionaries](https://tuxor1337.frama.io/firedict/dictionaries.html) ([0.48](https://dict.org/bin/Dict?Form=Dict3&Database=gcide?)). I can't deal with the [version 0.54](https://gcide.gnu.org.ua/download)'s data yet.
+
+Only one obvious style repair was made. See preview screenshot [here](temp/asset).
 
 ## Usage
 

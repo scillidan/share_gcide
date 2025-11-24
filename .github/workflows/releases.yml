@@ -38,15 +38,39 @@ jobs:
     - name: Decompress archive
       run: |
         unzip gcide.zip
-        mv gcide gcide-stardict
 
     - name: Run pyglossary and related processing
       run: |
-        for file in ./gcide-stardict/stardict.*; do
-          mv "$file" "./gcide-stardict/gcide-stardict.${file#./gcide-stardict/stardict.}"
+        mkdir temp
+        pyglossary ./gcide/gcide.ifo ./temp/gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
+        python text_format.py ./temp/gcide.txt ./temp/gcide-formatted.txt
+        pyglossary ./temp/gcide-formatted.txt ./gcide-stardict --read-format=Tabfile --write-format=Stardict --name=GCIDE
+        pyglossary ./temp/gcide-formatted.txt ./gcide-yomichan.zip --read-format=Tabfile --write-format=Yomichan --name=GCIDE
+
+    - name: Create zip files for Stardict sets
+      run: |
+        for base in *.ifo; do
+          prefix="${base%.ifo}"
+          if [[ ! -f "$prefix.ifo" ]]; then
+            echo "Skipping $prefix, missing $prefix.ifo"
+            continue
+          fi
+          if [[ ! -f "$prefix.idx" ]]; then
+            echo "Skipping $prefix, missing $prefix.idx"
+            continue
+          fi
+          dict_file=""
+          if [[ -f "$prefix.dict.dz" ]]; then
+            dict_file="$prefix.dict.dz"
+          elif [[ -f "$prefix.dict" ]]; then
+            dict_file="$prefix.dict"
+          else
+            echo "Skipping $prefix, missing $prefix.dict.dz or $prefix.dict"
+            continue
+          fi
+          echo "Creating ${prefix}.zip from $prefix.ifo, $dict_file, $prefix.idx"
+          zip -j "${prefix}.zip" "$prefix.ifo" "$dict_file" "$prefix.idx"
         done
-        zip -r gcide-stardict.zip gcide-stardict/
-        pyglossary ./gcide-stardict/gcide-stardict.ifo ./gcide-yomichan.zip --read-format=Stardict --write-format=Yomichan --name=GCIDE
 
     - name: Pre-release
       run: echo "${{ github.sha }}" > Release.txt
