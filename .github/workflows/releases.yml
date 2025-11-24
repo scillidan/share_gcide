@@ -41,7 +41,7 @@ jobs:
 
     - name: Run pyglossary and related processing
       run: |
-        pyglossary ./gcide/gcide.ifo ./gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
+        pyglossary ./gcide/stardict.ifo ./gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
         python text_format.py ./gcide.txt ./gcide-formatted.txt
         pyglossary ./gcide-formatted.txt ./gcide-stardict --read-format=Tabfile --write-format=Stardict --name=GCIDE
         pyglossary ./gcide-formatted.txt ./gcide-yomichan.zip --read-format=Tabfile --write-format=Yomichan --name=GCIDE
