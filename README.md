@@ -8,6 +8,6 @@ Only one obvious style repair was made. See preview screenshot [here](temp/asset
 
 ## Usage
 
-Download `.zip` from [Releases](https://github.com/scillidan/share_gcide/releases):
-- For GoldenDict, use `*-stardict.zip`. Only the filename be changed.
-- For Yomichan/Yomitan, use `*-yomichan.zip`.
+1. Download files from [Releases](https://github.com/scillidan/share_gcide/releases).
+2. Use them in GoldenDict (StarDict), Yomichan/Yomitan.
+3. See preview screenshot [here](temp/asset/).

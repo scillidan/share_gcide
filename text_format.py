@@ -1,3 +1,6 @@
+# Write by GPT-4o mini🧙‍♂️, scillidan🤡
+# Usage: python text_format.py <input_file> <output_file>
+
 import sys
 import re
 

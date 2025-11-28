@@ -41,10 +41,20 @@ jobs:
 
     - name: Run pyglossary and related processing
       run: |
-        pyglossary ./gcide/stardict.ifo ./gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
-        python text_format.py ./gcide.txt ./gcide-formatted.txt
-        pyglossary ./gcide-formatted.txt ./gcide-stardict --read-format=Tabfile --write-format=Stardict --name=GCIDE
-        pyglossary ./gcide-formatted.txt ./gcide-yomichan.zip --read-format=Tabfile --write-format=Yomichan --name=GCIDE
+        # tabfile
+        pyglossary ./gcide/stardict.ifo ./_gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
+        # tabfile-formatted
+        python text_format.py ./_gcide.txt ./_gcide-formatted.txt
+        # stardict
+        pyglossary ./_gcide-formatted.txt ./gcide-stardict --read-format=Tabfile --write-format=Stardict --name=GCIDE
+        # tabfile-formatted-html2ansi
+        python text_format.py _gcide-formatted.txt _gcide-formatted-html2ansi.txt
+        # sdcv
+        # pyglossary ./_gcide-formatted-html2ansi.txt ./gcide-sdcv --read-format=Tabfile --write-format=Stardict --name=GCIDE
+        # dictd
+        # pyglossary ./_gcide-formatted-html2ansi.txt ./gcide-dictd --read-format=Tabfile --write-format=DictOrg --write-options="dictzip=true" --name=GCIDE
+        # yomichan
+        pyglossary ./_gcide-formatted.txt ./gcide-yomichan.zip --read-format=Tabfile --write-format=Yomichan --name=GCIDE
 
     - name: Create zip files for Stardict sets
       run: |
@@ -70,6 +80,10 @@ jobs:
           echo "Creating ${prefix}.zip from $prefix.ifo, $dict_file, $prefix.idx"
           zip -j "${prefix}.zip" "$prefix.ifo" "$dict_file" "$prefix.idx"
         done
+
+    - name: Create zip files for Dictd sets
+      run: |
+        zip -j "gcide-dictd.zip" "gcide-dictd.dict.dz" "gcide-dictd.index"
 
     - name: Pre-release
       run: echo "${{ github.sha }}" > Release.txt
