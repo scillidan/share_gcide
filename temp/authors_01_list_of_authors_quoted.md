@@ -833,7 +833,7 @@
 | Gataker | Gataker, Thos. (Eng. class. critic) | 1574-1654 |
 | Gauden | Gauden, John (Eng. bishop, reputed author of <i>Eikon Basilike</i>) | 1605-1662 |
 | Gay | Gay, John (Eng. poet and dram.) | 1685-1732 |
-| Gayton | Gayton, Edm. (Eng. humorous  writer). [<i>Notes on Don Quixote</i>] | 1609-1666 |
+| Gayton | Gayton, Edm. (Eng. humorous writer). [<i>Notes on Don Quixote</i>] | 1609-1666 |
 | Geddes | Geddes, Alex. (Scot. R. C. theol.) | 1737-1802 |
 | Gegenbaur | Gegenbaur, Carl (Ger. anatomist) | 1830?- |
 | Geikie | Geikie, Archibald (Scot. geologist) | 1835?- |
@@ -1130,7 +1130,7 @@
 | Mrs. Howe | Howe, Julia Ward (Am. poet) | 1819- |
 | Howell | Howell, James (Brit. author) | 1595?-1666 |
 | W. D. Howells | Howells, Wm. Dean (Am. novelist) | 1837- |
-| Howitt | Howitt, Mrs. Mary (Eng. writer.  Howitt also indicates the joint works of Wm. and Mary Howitt) | 1798-1888 |
+| Howitt | Howitt, Mrs. Mary (Eng. writer. Howitt also indicates the joint works of Wm. and Mary Howitt) | 1798-1888 |
 | W. Howitt | Howitt, William (Eng. author) | 1795-1879 |
 | Hoyle | Hoyle, Edm. (Eng. writer on games) | 1672-1769 |
 | Hudibras | (a burl. poem by Sam. Butler, 1663.) | ND |
@@ -1180,7 +1180,7 @@
 | Janet | Janet, Paul (Fr. philosopher) | 1823- |
 | Jardine | Jardine, Sir William (Scot. nat.) | 1800-1874 |
 | Jarman | Jarman, Thos. (Eng. legal writer) | 1800?-1860 |
-| Jay | Jay, John (first chief just. of U. S.)] | 1745-1829 |
+| Jay | Jay, John (first chief just. of U. S.) | 1745-1829 |
 | W. Jay | Jay, William (Am. author) | 1789-1858 |
 | R. Jefferies | Jefferies, Richard (Eng. author) | 1848-1887 |
 | Jefferson | Jefferson, Thomas (Pres. of U. S.) | 1743-1826 |
@@ -1313,7 +1313,7 @@
 | W. Lee | Lee, William (Irish clergyman) | 1815-1883 |
 | Legend of Dido | (poem formerly attrib. to Chaucer). | ND |
 | Leibnitz | Leibnitz, von, Gottfried Wilh., Baron (Ger. philos. and math.) | 1646-1716 |
-| Leidy | Leidy, Joseph (Am.  naturalist) | 1823-1891 |
+| Leidy | Leidy, Joseph (Am. naturalist) | 1823-1891 |
 | Sir E. Leigh | Leigh, Sir Edward (Eng. theologian and linguist) | 1602-1671 |
 | Abp. Leighton | Leighton, Abp. Robt. (Scot. divine) | 1611-1684 |
 | Leland | Leland, John (Eng. antiquary) | 1506?-1552 |
@@ -1334,7 +1334,7 @@
 | J. B. Lightfoot | Lightfoot, Jos. Barber (Eng. comm.) | 1828-1889 |
 | Lincoln | Lincoln, Abraham (Pres. of U. S.) | 1809-1865 |
 | Bp. Lincoln | Williams, John (bp. of Lincoln and later abp. of York) | 1582-1650 |
-| Mrs. Lincoln (Cook Book) | Lincoln, Mrs. D. A.  [<i>Boston Cook Book</i>, Boston, 1888.] | ND |
+| Mrs. Lincoln (Cook Book) | Lincoln, Mrs. D. A. [<i>Boston Cook Book</i>, Boston, 1888.] | ND |
 | Lindisfarne Ms. | (an Anglo-Saxon Ms.) | ND |
 | Lindley | Lindley, John (Eng. botanist) | 1799-1865 |
 | Sir N. Lindley | Lindley, Sir Nathaniel (Eng. jurist) | 1828- |
@@ -1414,7 +1414,7 @@
 | Mackeldey | Mackeldey, Ferdinand (Fr. legal writer). | ND |
 | MacKellar | MacKellar, Thomas (author of <i>American Printer</i>) | 1812- |
 | McKendrick | McKendrick, John G. (Scot. physiol.) | ND |
-| D. L. Mackenzie | Mackenzie, D. L.  [<i>Eng. Syn.</i>, 1854.] | ND |
+| D. L. Mackenzie | Mackenzie, D. L. [<i>Eng. Syn.</i>, 1854.] | ND |
 | G. Mackenzie | Mackenzie, George (Scot. phys.) | -1726 |
 | Lord Mackenzie | Mackenzie, Lord Geo. (Scot. laywer) | 1636-1691 |
 | Morell Mackenzie | Mackenzie, Sir Morell (Eng. physician) | 1837-1892 |
@@ -1865,7 +1865,7 @@
 | Roscommon | Roscommon, Wentworth Dillon, Lord (Eng. poet) | 1633?-1684 |
 | Ross | Ross, Alexander (Brit. theologian) | 1590-1654 |
 | A. Ross (1778) | Ross, Alexander (Scot. poet) | 1699-1784 |
-| J. Ross | Ross, James.  [<i>Diseases of the Nervous System</i>, 1883.] | ND |
+| J. Ross | Ross, James. [<i>Diseases of the Nervous System</i>, 1883.] | ND |
 | Sir J. Ross | Ross, Sir John (Brit. admiral and arctic navigator) | 1777-1856 |
 | J. J. Rousseau | Rousseau, Jean Jacques (Fr. philos.) | 1712-1778 |
 | Rowe | Rowe, Nicholas (Eng. dramatist) | 1673-1718 |
@@ -2205,9 +2205,9 @@
 | Udall | Udall, Nicholas (Eng. teacher and dramatist) | 1506-1564 |
 | Upton (Tactics) | Upton, Emory (Am. major general) | 1839-1881 |
 | Ure | Ure, Andrew (Scotch chemist) | 1778-1857 |
-| Urquhart | Urquhart, Sir Thomas (Scotch politician).  [<i>Trans. of Rabelais</i>] | 1605?-1660 |
+| Urquhart | Urquhart, Sir Thomas (Scotch politician). [<i>Trans. of Rabelais</i>] | 1605?-1660 |
 | U. S. Census | United States Census, 1880 | \ |
-| U. S. Const. | United States Constitution.  See Constitution | ND |
+| U. S. Const. | United States Constitution. See Constitution | ND |
 | U. S. Disp. | United States Dispensory | ND |
 | U. S. Int. Rev. Statutes | United States Internal Revenue Statutes | ND |
 | U. S. Pharm. | United States Pharmacop<oe/ia | ND |
@@ -2372,7 +2372,7 @@
 | Wood | Wood, Anthony. [<i>Hist. of Oxford Univ.</i>] | 1632-1695 |
 | H. C. Wood | Wood, Horatio C. (Am. physician) | 1841- |
 | J. G. Wood | Wood, John George (English naturalist) | 1827-1889 |
-| Wood & Bache | {Wood, George B. & Bache, Franklin} [<i>U. S. Dispensatory</i>, 15th Ed.] | 1797-1879  &  1792-1864 |
+| Wood & Bache | {Wood, George B. & Bache, Franklin} [<i>U. S. Dispensatory</i>, 15th Ed.] | 1797-1879 & 1792-1864 |
 | J. Woodbridge | Woodbridge, John (Eng. clergyman in America | 1614-1691 |
 | Woodward | Woodward, John (Eng. geologist) | 1665-1728 |
 | S. Woodworth | Woodworth, Samuel (Am. poet) | 1785-1842 |

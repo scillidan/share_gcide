@@ -1,0 +1,423 @@
+a.|adj.|adjective	形容词
+abbrev.|abbreviated	缩写，略语
+abl.|ablative	离格
+Abp.|Archbishop	大主教
+acc.|accusative	宾格
+Acous.|Acoustics	声学
+act.|active	主动语态
+adv.|adverb	副词
+Agric.|Agriculture	农业
+Alban.|Albanian	阿尔巴尼亚语
+Alg.|Algebra	代数
+Am.|Amer.|America, American	美洲，美国的
+Am.|Amos	《阿摩司书》
+Am. Cyc.|Appleton's American Cyclopedia	阿普尔顿美国百科全书
+Anal. Geom.|Analytical Geometry	解析几何
+Anat.|Anatomy	解剖学
+Anc.|Ancient, anciently	古代的，在古代
+Angl. Ch.|Anglican Church	英国国教会
+Antiq.|Aniquities	古物，古迹
+aor.|aorist	不定过去时
+Ar.|Arabic	阿拉伯语
+Arch.|Architecture	建筑学
+Arch. Pub. Soc.|Architectural Pub. Society	建筑出版协会
+Arith.|Arithmetic	算术
+Arm.|Armor.|Armorican	布列塔尼语（古称）
+AS.|Anglo-Saxon	盎格鲁-撒克逊语
+Astrol.|Astrology	占星术
+Astron.|Astronomy	天文学
+aug.|augmentative	指大词
+Bank.|Banking	银行学
+Beau./B. & Fl.|Beaumont & Fletcher	博蒙特与弗莱彻
+Bib.|Biblical	圣经的
+Bib. Sacra|Bibliotheca Sacra	《圣经文库》
+Bibliog.|Bibliography	书目学，参考文献
+Biol.|Biology	生物学
+Bisc.|Biscayan	巴斯克语
+B. Jon.|Ben Jonson	本·琼森
+Bk. of Com. Prayer|Book of Common Prayer	《公祷书》
+Blackw. Mag.|Blackwood's Magazine	《布莱克伍德杂志》
+Bohem.|Bohemian	波西米亚语（捷克语）
+Bot.|Botany, botanical	植物学，植物学的
+Bp.|Bishop	主教
+Brande & C.|Brande & Cox	布兰德与考克斯
+Braz.|Brazilian	巴西的
+Brit. Critic|British Critic	《英国评论家》
+Brit. Quar. Rev.|British Quarterly Review	《英国季刊评论》
+Burl.|Burlesque	滑稽戏
+C.|Centigrade	摄氏度
+Cant.|Canticles (Song of Solomon)	《雅歌》
+Carp.|Carpentry	木工，细木工
+Catal.|Catalan	加泰罗尼亚语
+Cath. Dict.|Catholic Dictionary	《天主教词典》
+Celt.|Celtic	凯尔特语
+Cf.|Confer (compare)	比较，参照
+Ch.|Church	教会
+Chald.|Chaldee	迦勒底语
+Chem.|Chemistry	化学
+Ch. Hist.|Church History	教会历史
+Chin.|Chinese	中文，中国的
+Chron.|Chronology, Chronicles	年代学，历代志
+Civ.|Civil	民事的，民法的
+Class.|Classical	古典的
+Class. Myth.|Classical Mythology	古典神话
+Col.|Colossians	《歌罗西书》
+Colloq.|coll.|Colloquial, colloquially	口语的，口语上
+Com.|Commerce, Common	商业，公共的
+comp.|compound, compounded, composition	复合词，合成的，组成
+compar.|comparative	比较级
+conj.|conjunction	连词
+Con. Sect.|Conic Sections	圆锥曲线
+contr.|contracted, contraction	缩略的，缩略形式
+Copt.|Coptic	科普特语
+Corn.|Cornish	康沃尔语
+corrupt.|corrupted, corruption	讹误的，讹误
+Cotgr.|Cotgrave	科特格雷夫
+Cyc. Med.|Cyclopedia of Practical Medicine	《实用医学百科全书》
+Crim. Law|Criminal Law	刑法
+Crystallog.|Crystallography	晶体学
+Cyc.|Cyclopedia	百科全书
+D.|Dutch	荷兰语
+Dan.|Danish, Daniel	丹麦语，但以理书
+dat.|dative	与格
+def.|definitions	定义
+Deut.|Deuteronomy	《申命记》
+Dial.|Dialectic	方言
+dim.|diminutive	指小词
+Diosc.|dioscorides	迪奥斯科里斯
+Disp.|Dispensatory	药典
+Disus.|Disused	已废弃的
+Dom. Econ.|Domestic Economy	家庭经济学
+Dublin Univ. Mag.|Dublin University Magazine	《都柏林大学杂志》
+Dyn.|Dynamics	动力学
+E.|English	英语
+Eccl.|Ecclesiastical, Ecclesiastes	教会的，传道书
+Eccl. Hist.|Ecclesiastical History	教会历史
+Ecclus.|Ecclesiasticus	《便西拉智训》
+Eclec. Rev.|Eclectic Review	《折衷评论》
+Ed. Rev.|Edinburgh Review	《爱丁堡评论》
+e. g.|<it>exemplia gratia</it> (for example)	例如
+Egypt.|Egyptian	埃及语
+Elect.|Electricity, Electrical	电学，电的
+emph.|emphatic	强调的
+Encyc.|Encyclopedia	百科全书
+Encyc. Amer.|Encyclopedia Americana	《美利坚百科全书》
+Encyc. Crit.|Encyclopedia Britannica	《不列颠百科全书》
+Encyc. Dict.|Hunter's Encyclopedic Dictionary	亨特百科词典
+Eng.|England, English	英格兰，英语
+Eng.|Engraving	雕刻
+Eng. Cyc.|English Cyclopedia	《英国百科全书》
+Engin.|Engineering	工程学
+Eol.|Eolic	伊奥利亚希腊语
+Eph.|Ephes.|Ephesians	《以弗所书》
+equiv.|equivalent	等同的
+Esd.|Esdras	《以斯拉记》
+esp.|especially	尤其
+Etch. & Eng.|Etching & Engraving	蚀刻与雕刻
+Ethnol.|Ethnology	人种学
+etym.|etymol.|etymology	词源学
+Ex.|Exod.|Exodus	《出埃及记》
+Ezek.|Ezekiel	《以西结书》
+F.|French	法语
+f.|fem.|feminine	阴性
+Fahr.|Fahrenheit	华氏度
+Far.|Farriery	马兽医/马蹄铁术
+Feud.|Feudal	封建的
+Fig.|Figurative, figuratively	比喻的，比喻地
+Fin.|Finnish	芬兰语
+For. Quart. Rev.|Foreign Quarterly Review	《外国季刊评论》
+Fort.|Fortification	防御工事
+fr.|from	来自
+Fr.|French	法语
+freq.|frequentative	反复动词
+Fries.|Friesic	弗里斯兰语
+fut.|future	将来时
+G.|German	德语
+Gael.|Gaelic	盖尔语
+Gal.|Galen	盖伦
+Gal.|Galatians	《加拉太书》
+Galv.|Galvanism	伽伐尼电学
+gen.|generally, genitive	通常，属格
+Geneal.|Genealogy	家谱学
+Gent. Mag.|Gentleman's Magazine	《绅士杂志》
+Geog.|Geography	地理学
+Geol.|Geology	地质学
+Geom.|Geometry	几何学
+Ger.|German	德语
+Goth.|Gothic	哥特语
+Gov. of Tongue|Government of the Tongue	《语言的统治》
+Gr.|Greek	希腊语
+Gram.|Grammar	语法
+Gris.|Grisons	格劳宾登语
+Gun.|Gunnery	枪炮学
+H.|High	高地
+Hab.|Habakkuk	《哈巴谷书》
+Hag.|Haggai	《哈该书》
+Ham. Nav. Encyc.|Hamersly's Naval Encyclopedia	《哈默斯利海军百科全书》
+Heb.|Hebrew, Hebrews	希伯来语，希伯来书
+Her.|Heraldry	纹章学
+Hind.|Hindostanee	印度斯坦语
+Hipp.|Hippocrates	希波克拉底
+Hist.|History	历史
+Horol.|Horology	钟表学
+Hort.|Horticulture	园艺学
+Hung.|Hungarian	匈牙利语
+Hydraul.|Hydraulics	水力学
+Hydros.|Hydrostatics	流体静力学
+hypoth.|hypothetical	假设的
+Icel.|Icelandic	冰岛语
+i. e.|<it>id est</it> (that is)	即，那就是
+Illust.|Illustration, Illustrated	插图，有插图的
+imp.|imperfect	未完成时
+Imp. Dict.|Imperial Dictionary	《帝国词典》
+incho.|inchoative	起始动词
+ind.|indicative	陈述语气
+indef.|indefinite	不定的
+inf.|infinitive	不定式
+intens.|intensive	强调的，强化词
+interj.|interjection	感叹词
+Internat. Cyc.|International Cyclopeia	《国际百科全书》
+Ion.|Ionic	爱奥尼亚希腊语
+i. q.|<it>idem quod</it> (the same as)	同于
+Ir.|Irish	爱尔兰语
+Is.|Isa.|Isaiah	《以赛亚书》
+It.|Italian	意大利语
+Jap.|Japanese	日语
+Jas.|James	《雅各书》
+Jav.|Javanese	爪哇语
+Jer.|Jeremiah	《耶利米书》
+Join.|Joinery	细木工
+Josh.|Joshua	《约书亚记》
+Judg.|Judges	《士师记》
+K.|Kings	《列王记》
+L.|Latin	拉丁语
+L.|Low	低地
+Lam.|Lamentations	《耶利米哀歌》
+Lapp.|Lappish	拉普语
+Lat.|Latin	拉丁语
+LD.|Low Dutch	低地荷兰语
+Lett.|Lettish	拉脱维亚语
+Lev.|Leviticus	《利未记》
+LG.|Low German	低地德语
+LGr.|Low Greek	低地希腊语
+Linn.|Linn<ae/us	林奈
+Lit.|lit.|Literally, literally	字面上的，字面地
+Lit.|Literature	文学
+Lith.|Lithuanian	立陶宛语
+LL.|Low Latin	中古拉丁语
+M.|Middle	中古
+m.|masc.|masculine	阳性
+Maced.|Macedonian	马其顿语
+Mach.|Machinery	机械学
+Mad.|Madam	夫人
+Mag.|Magazine	杂志
+Mal.|Malachi	《玛拉基书》
+Malay.|Malayan	马来语
+Man.|Man<egrave/ge	马恩语
+Manuf.|Manufacturing	制造业
+Mar.|Maritime	海事的
+Math.|Mathematics, Mathematical	数学，数学的
+Matt.|Matthew	《马太福音》
+Mech.|Mechanic	机械学
+Med.|Medicine	医学
+Metal.|Metallurgy	冶金学
+Metaph.|Metaphysics	形而上学
+Meteor.|Meteorolgy	气象学
+mgr.|milligrams	毫克
+MHG.|Middle High German	中古高地德语
+Micros.|Microscopy	显微镜学
+Mil.|Military	军事的
+Min.|Mineralogy	矿物学
+Mir. for Mag.|Mirror for Magistrates	《为官吏之镜》
+MLG.|Middle Low German	中古低地德语
+Moham.|Mohammedan	穆斯林的
+Mozley & W.|Mozley & Whiteley	莫兹利与怀特利
+Mus.|Music	音乐
+Myst.|Mysteries	神秘剧
+Myth.|Mythology	神话
+N.|New	新
+n.|noun	名词
+Nat. Hist.|Natural History	自然历史
+Nat. ord.|Natural order	自然目
+Naut.|Nautical	航海的
+Nav.|Navy	海军
+Navig.|Navigation	航海术
+N. Brit. Rev.|North British Review	《北不列颠评论》
+Neh.|Nehemiah	《尼希米记》
+neut.|neuter	中性
+New Am. Cyc.|New American Cyclopedia	《新美利坚百科全书》
+New Month. Mag.|New Monthly Magazine	《新月刊杂志》
+NF.|New French	新法语
+NGr.|Mew Greek	新希腊语
+NHeb.|New Hebrew	新希伯来语
+NL.|New Latin	新拉丁语
+nom.|nominative	主格
+Norm. F.|Norman French	诺曼法语
+North Am. Rev.|North American Review	《北美评论》
+Norw.|Norwegian	挪威语
+Num.|Numbers	《民数记》
+Numis.|Numismatics	钱币学
+O.|Old	古，旧
+Ob.|Obadiah	《俄巴底亚书》
+Obs.|Obsolete	已废弃的
+Obsoles.|Obsolescent	逐渐废弃的
+OCelt.|Old Celtic	古凯尔特语
+OD.|Old Dutch	古荷兰语
+ODan.|Old Danish	古丹麦语
+OE.|Old English	古英语
+OF.|Old French	古法语
+OFelm.|Old Flemish	古佛兰芒语
+OFries.|Old Friesic	古弗里斯兰语
+OGael.|Old Gaelic	古盖尔语
+OGr.|Old Greek	古希腊语
+OHG.|Old High German	古高地德语
+OIcel.|Old Icelandic	古冰岛语
+OIr.|Old Irish	古爱尔兰语
+OIt.|Old Italian	古意大利语
+OL.|Old Latin	古拉丁语
+OLG.|Old Low Greman	古低地德语
+ON.|Old Norse	古诺尔斯语
+OPer.|Old Persian	古波斯语
+OPg.|Old Portuguese	古葡萄牙语
+OPol.|Old Polish	古波兰语
+Opt.|Optics	光学
+orig.|original, originally	原始的，最初
+Ornith.|Ornithology	鸟类学
+OS.|Old Saxon	古撒克逊语
+OSlav.|Old Slavic	古斯拉夫语
+OSp.|Old Spanish	古西班牙语
+Oxf. Gloss.|Oxford Glossary of Architecture	《牛津建筑术语词典》
+p.|participle, page	分词，页
+p. a.|participial adjective	分词形容词
+Paint.|Painting	绘画
+Paleon.|Paleontology	古生物学
+pass.|passive	被动语态
+Pathol.|Pathology	病理学
+P. Cyc.|Penny Cyclopedia	《便士百科全书》
+Per.|Persian	波斯语
+perh.|perhaps	可能
+pers.|person	人称
+Persp.|Perspective	透视法
+Pert.|Pertaining	关于
+Peruv.|Peruvian	秘鲁的
+Pet.|Peter	《彼得书》
+Pg.|Portuguese	葡萄牙语
+Pharm.|Pharmacy, Pharmacop<oe/ia	药学，药典
+Phil.|Phillipians	《腓立比书》
+Philem.|Philemon	《腓利门书》
+Philol.|Philology	语文学
+Philos.|Philosophy	哲学
+Phon.|Phonetics	语音学
+Photog.|Photography	摄影术
+Photom.|Photometry	光度学
+Phr.|Phrase	短语
+Phren.|Phrenology	颅相学
+Phys.|Physics	物理学
+Phys. Sci.|Physical Science	物理科学
+Physiol.|Physiology	生理学
+pl.|plural	复数
+Poet.|Poetry, Poetical	诗歌，诗的
+Pol.|Polish	波兰语
+Pol. Econ.|Political Economy	政治经济学
+Polit. Econ.|Political Economy	政治经济学
+Pop. Sci. Monthly|Polular Science Monthly	《大众科学月刊》
+pp.|pages	多页
+p. p.|participle past	过去分词
+P. Plowman|Piers Plowman	《农夫皮尔斯》
+p. pr.|p. ple.|participle present	现在分词
+Pr.|Proven<cced/al	普罗旺斯语
+Pref.|Preface	前言
+pref.|prefix	前缀
+prep.|preposition	介词
+pret.|preterit	过去时
+prin.|principally	主要地
+Print.|Printing	印刷术
+priv.|privative	否定前缀
+prob.|probably	可能
+pron.|Pronunciation, pronounced, pronoun	发音，被读作，代词
+prop.|properly, proper	正确地，恰当
+Pros.|Prosody	韵律学
+Prov.|Provincial	方言的
+Prov.|Proverbs	《箴言》
+Ps.|Psa.|Psalms	《诗篇》
+Pyro.-elect.|Pyro-electricity	热释电学
+Quart. Rev.|Quarterly Review	《季刊评论》
+q. v.|<it>quod vide</it> (which see)	参见
+R.|Rare	罕用
+R. C.|Roman Catholic	罗马天主教
+R. C. Ch.|Roman Catholic Church	罗马天主教会
+Rep. Sec. of War|Report of Secretary of War	《战争部长报告》
+Rev.|Revelation	《启示录》
+Rev.|Review	评论
+Rev. Ver.|Revised Version (of the Bible)	《圣经》修订本
+Rhet.|Rhetoric	修辞学
+R. of Brunne|Robert of Brunne	罗伯特·奥布伦内
+R. of Gl.|Robert of Gloucester	格洛斯特的罗伯特
+Rom.|Roman, Romans	罗马的，《罗马书》
+Rom. Cath.|Roman Catholic	罗马天主教
+Rom. of R.|Romaunt of the Rose	《玫瑰传奇》
+Rpts.|reports	报告
+Russ.|Russian	俄语
+Sam.|Samaritan	撒马利亚语
+Sam.|Samuel	《撒母耳记》
+Sat. Rev.|Saturday Review	《星期六评论》
+Sax.|Saxon	撒克逊语
+sc.|<it>scilicet</it> (being understood)	即，也就是
+Scand.|Scandinavian	斯堪的纳维亚的
+Sci.|Science	科学
+Sci. Am.|Scientific American	《科学美国人》
+Scot.|Scotland, Scottish	苏格兰，苏格兰的
+Script.|Scripture, Scriptural	圣经，圣经的
+Sculp.|Sculpture	雕塑
+Serb|Serbian	塞尔维亚语
+Serv.|Servian	塞尔维亚语
+Shak.|Shakespeare	莎士比亚
+sing.|singular	单数
+Skr.|Sanskrit	梵语
+Slav.|Slavonic	斯拉夫语
+Sp.|Spanish	西班牙语
+Specif.|Specifically	具体地
+Stat.|Statuary	雕像艺术
+subj.|subjunctive	虚拟语气
+superl.|superlative	最高级
+Surg.|Surgery	外科学
+Surv.|Surveying	测量学
+Sw.|Swedish	瑞典语
+Syd. Soc. Lex.|Sydenham Society Lexicon	西德纳姆学会词典
+Syn.|Synonyms	同义词
+Synop.|Synopsis	概要
+Syr.|Syriac	叙利亚语
+Tart.|Tartaric	鞑靼的
+Teleg.|Telegraphy	电报学
+term.|termination	词尾
+Test.|Testament	约，圣约
+Theol.|Theology	神学
+Thes.|Thessalonians	《帖撒罗尼迦书》
+Tim.|Timothy	《提摩太书》
+Todd & B.|Todd & Bowman	托德与鲍曼
+Trans.|Translation	翻译
+Treas.|Treasury	宝库，财政
+Trig.|Trigonometry	三角学
+Turk.|Turkish	土耳其语
+Typog.|Typography	印刷术
+Univ.|University	大学
+Up.|Upper	高地
+U. S.|United States	美利坚合众国
+U. S. Disp.|United States Dispensatory	《美国药典》
+U. S. Pharm.|United States Pharmacop<oe/ia	《美国药典》
+U. S. Int. Rev. Statutes|United States Internal Revenue Statutes	《美国国内税收法规》
+usu.|usually	通常
+v.|verb	动词
+var.|variety	变体
+vb. n.|verbal noun	动名词
+Veter.|Veterinary	兽医学
+v. i.|verb intransitive	不及物动词
+Vitr.|Vitruvius	维特鲁威
+v. t.|verb transitive	及物动词
+W.|Welsh	威尔士语
+Wall.|Wallachian	瓦拉几亚语
+Westm. Cat.|Westminster Catechism	《威斯敏斯特教理问答》
+Westm. Rev.|Westminster Review	《威斯敏斯特评论》
+Zech.|Zechariah	《撒迦利亚书》
+Zeph.|Zephaniah	《西番雅书》
+Zo\'94l.|Zo\'94logy	动物学
