@@ -1,0 +1,98 @@
+⸮	<small>[symbol]</small><br><?/<br>(reverse-video question mark), used to represent an uncodable or illegible character<br>（反相问号），用于表示无法编码或难以辨认的字符
+𝄉	<small>[symbol]</small><br><segno/<br>represents sheet music sign "Segno" (U+1D109).<br><segno/ 表示乐谱符号“Segno”（U+1D109）。
+‖	<small>[symbol]</small><br>vertical double bar - represents the symbol used in the printed dictionary before a headword to signify that the word was adopted without anglicization from a foreign language but in the full-ASCII version this function uses ‖<br><par/<br>double vertical bar (short length; the long length is the graphics character ‖)<br>This precedes words marked with a double vertical bar in the original dictionary, signifying that the word was adopted directly into English without modification of the spelling.<br>竖双杠 - 表示印刷词典中用于标示该词未经英语化直接借自外语的符号，但在全ASCII版本中此功能使用‖<br>双竖杠（短长度；长长度是图形字符‖<br>在原始词典中，此符号位于标有双竖杠的单词前，表示该词在拼写未经修改的情况下直接借入英语。
+h	<small>[symbol]</small><br><th/ (part 2) second of a two-character combination<br><th/ （第二部分）双字符组合的第二个字符
+t	<small>[symbol]</small><br><th/ (part 1) first of a pair of characters<br><th/ （第一部分）双字符组合的第一个字符
+th	<small>[symbol]</small><br>used to represent the th ligature<br>used to represent the th ligature in pronunciations<br><th/ represents the "th" sound of "mother"<br>用于表示th连字<br>用于表示注音中的th连字<br>表示“mother”中的“th”音
+£	<small>[symbol]</small><br><pound/<br>英镑符号
+§	<small>[symbol]</small><br><sect/<br>section mark<br>章节号
+°	<small>[symbol]</small><br><deg/<br>degrees (temperature or angle). Note: some typists used a superscript "o" to signify degrees. This must be corrected!<br>度符号（温度或角度）。注意：有些打字员使用上标“o”来表示度。必须予以纠正！
+´	<small>[symbol]</small><br><prime/<br>light accent in headwords<br>replaced within headwords in the full ASCII version by an open-single-quote `, not the same as ‘). This mark is used also for minutes of a degree, and for "prime" to modify variables in mathematical expressions.<br>-- two of these in sequence represent seconds of a degree, or double prime.<br>the seconds symbol is also represented by <sec/.<br>词目中的细体重音符号<br>在全ASCII版本的词目中被开单引号（`，不同于'）替代。此符号也用于表示角分，以及在数学表达式中修饰变量的“撇号”。<br>-- 连续两个此符号表示角秒或双撇号。<br>秒符号也由<sec/表示。
+↕	<small>[symbol]</small><br>Long verticle double-headed arrow (a reference mark)<br>长垂直双头箭头（一种参考标记）<br><font style="color:red;">注：此处符号原本写的是´</font>
+·	<small>[symbol]</small><br>middle dot (light)<br>中间点（细体）
+¼	<small>[symbol]</small><br><frac14/<br>one-fourth (fraction)<br>四分之一（分数）
+½	<small>[symbol]</small><br><frac12/<br>one-half, as in the original IBM set<br>二分之一（与原始 IBM 字符集一致）
+à	<small>[symbol]</small><br><agrave/<br>a grave<br>a抑音符
+á	<small>[symbol]</small><br><aacute/<br>a 尖音符
+â	<small>[symbol]</small><br><acir/<br>a circumflex<br>带扬抑符的a
+ã	<small>[symbol]</small><br><atil/<br>a with tilde above - in some etymologies<br>带波浪符的a - 用于一些词源
+ä	<small>[symbol]</small><br><aum/<br>a umlaut<br>带分音符的a
+Ä	<small>[symbol]</small><br><Aum/<br>带分音符的A
+å	<small>[symbol]</small><br><aring/<br>a with "ring" (circle) above (Swedish!)<br>带圆圈符的a（瑞典语用）
+æ	<small>[symbol]</small><br><ae/<br>"ae" fused ligature<br>“ae”连字
+Æ	<small>[symbol]</small><br><AE/<br>upper-case "ae" fused ligature<br>大写“ae”连字
+Ç	<small>[symbol]</small><br><Cced/<br>c cedilla (uppercase)<br>带下加符的C
+ç	<small>[symbol]</small><br><cced/<br>c cedilla<br>带下加符的c
+É	<small>[symbol]</small><br><Eacute/<br>带尖音符的E
+è	<small>[symbol]</small><br><egrave/<br>e grave<br>带抑音符的e
+é	<small>[symbol]</small><br><eacute/<br>e acute<br>带尖音符的e
+ê	<small>[symbol]</small><br><ecir/<br>e circumflex<br>带扬抑符的e
+ë	<small>[symbol]</small><br><eum/<br>e umlaut (or e with dieresis above)<br>带分音符的e
+ì	<small>[symbol]</small><br><igrave/<br>带抑音符的i
+í	<small>[symbol]</small><br><iacute/<br>带尖音符的i
+î	<small>[symbol]</small><br><icir/<br>带扬抑符的i
+ï	<small>[symbol]</small><br><ium/<br>带分音符的i
+ð	<small>[symbol]</small><br><edh/<br>Old English and Icelandic "edh", (or "eth") like a Greek delta with a hatch mark through the ascender. Used to represent the Anglo-Saxon/Icelandic/Gothic character, in etymologies, pronounced like "th"<br>古英语和冰岛语“edh”（或称“eth”），类似希腊字母delta但上升部分有横线穿过。用于表示盎格鲁-撒克逊/冰岛语/哥特语字符，见于词源，发音类似“th”
+ñ	<small>[symbol]</small><br><ntil/<br>Spanish "enye"<br>西班牙语“enye”
+Ñ	<small>[symbol]</small><br><Ntil/<br>带波浪符的N
+ò	<small>[symbol]</small><br><ograve/<br>带抑音符的o
+ó	<small>[symbol]</small><br><oacute/<br>带尖音符的o
+ô	<small>[symbol]</small><br><ocir/<br>o circumflex<br>带扬抑符的o
+ö	<small>[symbol]</small><br><oum/<br>o "umlaut", used mostly in "coöperation, Zoöl." and in pronunciations<br>带“分音符”的o，主要用于“coöperation, Zoöl.”等词及注音中
+Ö	<small>[symbol]</small><br><Oum/<br>带分音符的O
+÷	<small>[symbol]</small><br><divide/<br>除号
+ù	<small>[symbol]</small><br><ugrave/<br>带抑音符的u
+ú	<small>[symbol]</small><br><uacute/<br>带尖音符的u
+û	<small>[symbol]</small><br><ucir/<br>带扬抑符的u
+ü	<small>[symbol]</small><br><uum/<br>u umlaut<br>带分音符的u
+Ü	<small>[symbol]</small><br><Uum/<br>带分音符的U
+þ	<small>[symbol]</small><br><thorn/<br>"thorn", an Old English and Icelandic character, appears like a "p" with an extended ascender.<br>Used to represent the Anglo-Saxon/Icelandic/Gothic character, in etymologies, pronounced like "th" in "thorn" and also as in "brother"<br>“thorn”，古英语和冰岛语字符，形状类似带延伸上升部的“p”。<br>用于表示盎格鲁-撒克逊/冰岛语/哥特语字符，见于词源，发音类似“thorn”中的“th”，也类似“brother”中的“th”
+ÿ	<small>[symbol]</small><br><yum/<br>带分音符的y
+ā	<small>[symbol]</small><br><amac/<br>a macron<br>带长音符号的a
+ă	<small>[symbol]</small><br><acr/<br>a with crescent above - used in some etymologies<br>带短音符的a - 用于一些词源
+ē	<small>[symbol]</small><br><emac/<br>e macron<br>带长音符号的e
+ĕ	<small>[symbol]</small><br><ecr/<br>e with crescent (breve) above. Used - in some etymologies and pronunciation<br>带短音符的e。用于一些词源和注音
+ī	<small>[symbol]</small><br><imac/<br>i macron<br>带长音符号的i
+ĭ	<small>[symbol]</small><br><icr/<br>i with crescent (breve) above - used - in some etymologies and pronunciation<br>带短音符的i - 用于一些词源
+ō	<small>[symbol]</small><br><omac/<br>o macron<br>带长音符的o
+ōē	<small>[symbol]</small><br><oemac/<br>"oe" ligature with a macron<br>带长音符号的“oe”连字
+ŏ	<small>[symbol]</small><br><ocr/<br>o with crescent (breve) above - used - in some etymologies and pronunciation<br>带短音符的o - 用于一些词源
+Œ	<small>[symbol]</small><br><OE/<br>OE连字
+œ	<small>[symbol]</small><br><oe/<br>"oe" fused ligature<br>“oe”连字
+ū	<small>[symbol]</small><br><umac/<br>u macron<br>带长音符的u
+ŭ	<small>[symbol]</small><br><ucr/<br>u with crescent above - used in some etymologies<br>带短音符的u - 用于一些词源
+ǒ	<small>[symbol]</small><br><ocar/<br>o with caron (hacek) (inverted circumflex) above<br>带抑扬符的o
+ǣ	<small>[symbol]</small><br><aemac/<br>"ae" ligature with a macron<br>带长音符的“ae”连字
+ȝ	<small>[symbol]</small><br><yogh/<br>Like a script "3" or "z". Used in Old English etymologies, analogous to "y"<br>形状类似手写体“3”或“z”。用于古英语词源，与“y”类似
+ȧ	<small>[symbol]</small><br><adot/<br>a with a dot above (for pronunciations)<br>带点符的a
+ȳ	<small>[symbol]</small><br><ymac/<br>y macron (used in Anglo-Saxon?)<br>带长音符的y（用于古英语？）
+˘	<small>[symbol]</small><br><cre/<br>"crescent", an upward-curving crescent used as a poetic meter mark<br>（新月形）“短音符”，一种向上弯曲的符号，用作诗歌格律标记（短重音）
+˝	<small>[symbol]</small><br><bprime/<br>bold accent in headwords<br>Replaced in full ASCII version by double quote<br>词目中的粗体重音符号（用于注音）<br>在全ASCII版本中被双引号替代
+˝	<small>[symbol]</small><br><sec/<br>seconds of degree or time, or double-prime<br>秒（角度或时间），也表示英寸或双撇号
+ḍ	<small>[symbol]</small><br><dsdot/<br>Sanskrit/Tamil d with dot underneath<br>梵语/泰米尔语中带下点符的d
+ṅ	<small>[symbol]</small><br><ndot/<br>带下点符的n
+ṇ	<small>[symbol]</small><br><nsdot/<br>Sanskrit/Tamil n with dot underneath<br>梵语/泰米尔语中带下点符的n
+ṉ	<small>[symbol]</small><br><nsm/<br>"n sub-macron", an n with a macron below -- represents the "ng" sound in pronunciations<br>“带下长音符的n”，表示注音中“ng”音
+ṛ	<small>[symbol]</small><br><rsdot/<br>带下点符的r
+ṭ	<small>[symbol]</small><br><tsdot/<br>Sanskrit/Tamil t with dot underneath<br>梵语/泰米尔语中带下点符的t
+‐	<small>[symbol]</small><br>short dash, used in hyphenated words, and in breaking syllables where no accent is used. But sometimes the typists used the normal hyphen, or the long dash for that purpose. The normal hyphen is the same length as the long dash, but one pixel higher in the character box.<br>In headwords, in the full ASCII version, this short dash is represented by the asterisk "*".<br>短破折号，用于连字符单词，以及在不使用重音时划分音节。但打字员有时使用普通连字符或长破折号来达到此目的。普通连字符与长破折号长度相同，但在字符框中的位置高一个像素。<br>在词目中，在全ASCII版本中，此短破折号由星号"*"表示。
+–	<small>[symbol]</small><br>long dash, one pixel removed from left will fuse with left long dash<br>长破折号，从左侧移除一个像素可与左长破折号融合
+–—	<small>[symbol]</small><br>combination for a very long dash. In the original typing, the dash char 208 was used for both non-breaking hyphen (in hyphenated words), and for the em-dash used as an introductory mark for various segments. The em-dash should be distinguished from the hyphen, but that conversion hasn't yet been done. In the full ASCII version, a double hypen "--" represent the m-dash.<br>组合成极长破折号。在原始输入中，字符208既用于非断字连字符（在连字符单词中），也用于作为各种部分引导标记的em破折号。em破折号应与连字符区分开，但此转换尚未完成。在全ASCII版本中，双连字符“--”表示em破折号。
+—	<small>[symbol]</small><br>--<br><mdash/<br><graphic horizontal line>Represents the long dash, used for the em dash which often precedes certain sections within a definition, and which separates some sections, such as wordforms or collocations within a collocation segment. This is replaced in the full ASCII version by a double hyphen, "--".<br>长（全角）破折号<br>表示长破折号，用作em破折号，通常用于定义内某些部分之前，或用于分隔某些部分（如词形或搭配段内的搭配）。在全ASCII版本中被双连字符“--”替代。
+―	<small>[symbol]</small><br>graphic horizontal line<br>图形水平线
+‘	<small>[symbol]</small><br><lsquo/<br>"left single quote"<br>single open quote mark (not same as `)<br>“左单引号”<br>单开引号（与`不同）
+“	<small>[symbol]</small><br><ldquo/<br>open double quotes (used with close quote)<br>开双引号（与闭引号搭配使用）
+”	<small>[symbol]</small><br><rdquo/<br>close double quotes (used with open quote)<br>闭双引号（与开引号搭配使用）
+•	<small>[symbol]</small><br><middot/<br>middle dot (bold)<br>中间点（粗体）
+⅓	<small>[symbol]</small><br><frac13/<br>one-third (fraction)<br>三分之一（分数）
+⅔	<small>[symbol]</small><br><frac23/<br>two-thirds (fraction)<br>三分之二（分数）
+√	<small>[symbol]</small><br><root/<br>"root" sign used in etymologies, as in original<br>“根号”，用于词源，与原版一致
+≈	<small>[symbol]</small><br>double tilde ("approximately equals")<br>used by typists as a place-holder in word combinations where the capitalized headword should be<br>双波浪号（“约等于”）<br>打字员用作占位符，标示在单词组合中应填入大写的词目词
+☞	<small>[symbol]</small><br><hand/<br>(the typographer's "fist")<br>Appearing as a "pointing hand" character (for explanatory notes)<br>（印刷上的“手形”标记）<br>显示为“指向手”字符（用于解释性注释）
+♭	<small>[symbol]</small><br><flat/<br>flat - music notation<br>降号 - 音乐符号
+♯	<small>[symbol]</small><br><sharp/<br>sharp - music notation<br>升号 - 音乐符号
+ā̍	<small>[symbol]</small><br>a "semilong" (has a macron above with a short vertical bar on top the center of the macron)<br>Used in pronunciations.<br>一种“半长”元音（上方有一条长音符，长音符中央上方带有一条短竖线）<br>用于注音。
+ē̍	<small>[symbol]</small><br>"semilong"<br>“半长元音符”
+ī̍	<small>[symbol]</small><br>"semilong"<br>“半长元音符”
+ō̍	<small>[symbol]</small><br>"semilong"<br>“半长元音符”
+ū̍	<small>[symbol]</small><br>"semilong"<br>“半长元音符”
