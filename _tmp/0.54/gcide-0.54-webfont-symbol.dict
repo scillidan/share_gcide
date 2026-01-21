@@ -8,7 +8,7 @@ th	<small>[symbol]</small><br>used to represent the th ligature<br>used to repre
 §	<small>[symbol]</small><br><sect/<br>section mark<br>章节号
 °	<small>[symbol]</small><br><deg/<br>degrees (temperature or angle). Note: some typists used a superscript "o" to signify degrees. This must be corrected!<br>度符号（温度或角度）。注意：有些打字员使用上标“o”来表示度。必须予以纠正！
 ´	<small>[symbol]</small><br><prime/<br>light accent in headwords<br>replaced within headwords in the full ASCII version by an open-single-quote `, not the same as ‘). This mark is used also for minutes of a degree, and for "prime" to modify variables in mathematical expressions.<br>-- two of these in sequence represent seconds of a degree, or double prime.<br>the seconds symbol is also represented by <sec/.<br>词目中的细体重音符号<br>在全ASCII版本的词目中被开单引号（`，不同于'）替代。此符号也用于表示角分，以及在数学表达式中修饰变量的“撇号”。<br>-- 连续两个此符号表示角秒或双撇号。<br>秒符号也由<sec/表示。
-↕	<small>[symbol]</small><br>Long verticle double-headed arrow (a reference mark)<br>长垂直双头箭头（一种参考标记）<br><font style="color:red;">注：此处符号原本写的是´</font>
+↕	<small>[symbol]</small><br>Long verticle double-headed arrow (a reference mark)<br>长垂直双头箭头（一种参考标记）
 ·	<small>[symbol]</small><br>middle dot (light)<br>中间点（细体）
 ¼	<small>[symbol]</small><br><frac14/<br>one-fourth (fraction)<br>四分之一（分数）
 ½	<small>[symbol]</small><br><frac12/<br>one-half, as in the original IBM set<br>二分之一（与原始 IBM 字符集一致）

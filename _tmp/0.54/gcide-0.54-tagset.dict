@@ -1,3 +1,53 @@
+<plain>	<small>[explicit typographical]</small><br>Plain font used in the body of a definition — normally not marked, except within fields of a different font.<br>纯字体，用于定义正文——通常不标记，除非在不同字体的字段内。
+<it>	<small>[explicit typographical]</small><br>Italic font used in master files.<br>斜体，用于主文件。
+<i>	<small>[explicit typographical]</small><br>Italic for use in HTML presentation.<br>斜体，用于HTML呈现。
+<bold>	<small>[explicit typographical]</small><br>Bold font used in master files.<br>粗体，用于主文件。
+<b>	<small>[explicit typographical]</small><br>Bold for use in HTML presentation.<br>粗体，用于HTML呈现。
+<colf>	<small>[explicit typographical]</small><br>Collocation font, bold and smaller. Same font as used in collocations.<br>搭配字体，粗体且较小。与搭配词中使用的字体相同。
+<ct>	<small>[explicit typographical]</small><br>Same as `<colf>`, a font similar to that used in collocations. However, this tag is used in a table and could be set to a different font.<br>类似于`<colf>`，与搭配词字体相似，但在表格中使用，可能设置为不同字体。
+<h1>	<small>[explicit typographical]</small><br>HTML heading level 1, largest heading font.<br>HTML标题级别1，最大标题字体。
+<h2>	<small>[explicit typographical]</small><br>HTML heading level 2, second largest heading font.<br>HTML标题级别2，第二标题字体。
+<headrow>	<small>[explicit typographical]</small><br>Marks a row title in a table.<br>标记表格中的行标题。
+<hwf>	<small>[explicit typographical]</small><br>Font the same as the headword, used for non-headword fields. Only used once.<br>与词条标题相同的字体，用于非词条字段。仅使用一次。
+<mitem>	<small>[explicit typographical]</small><br>Multiple items, indicating a set of items in a table.<br>多项内容，表示表格中的一组项目。
+<point ...>	<small>[explicit typographical]</small><br>A series of point size markers, many unique.<br>一系列点大小标记，多数为唯一值。
+<point1.5>	<small>[explicit typographical]</small><br>One of the point size tags, specifying 1.5 point font size.<br>点大小标签之一，指定1.5点字体大小。
+<pre>	<small>[explicit typographical]</small><br>An HTML tag indicating that the enclosed text is of teletype form, preformatted in a uniform-spaced font.<br>HTML标签，表示包围文本为电传形式，以等宽字体预格式化。
+<sc>	<small>[explicit typographical]</small><br>Small caps font, used mostly for "a. d.", "b. c."<br>小型大写字体，主要用于“a. d.”、“b. c.”等。
+<str>	<small>[explicit typographical]</small><br>Groups table data elements in a table.<br>在表格中分组表格数据元素。
+<sub>	<small>[explicit typographical]</small><br>Subscript font.<br>下标字体。
+<subs>	<small>[explicit typographical]</small><br>Subscript font.<br>下标字体。
+<sups>	<small>[explicit typographical]</small><br>Superscript font.<br>上标字体。
+<supr>	<small>[explicit typographical]</small><br>Superscript font.<br>上标字体。
+<sansserif>	<small>[explicit typographical]</small><br>Sans-serif font.<br>无衬线字体。
+<stypec>	<small>[explicit typographical]</small><br>Bold collocation font, and also a subtype.<br>粗体搭配字体，也是一个子类型。
+<tt>	<small>[explicit typographical]</small><br>HTML tag for teletype font.<br>HTML标签，表示电传字体。
+<universbold>	<small>[explicit typographical]</small><br>A squared bold font without serifs approximating the "universe bold" font on the HP Laserjet4...<br>一种无衬线的方形粗体字体，类似于HP Laserjet4上的“universe bold”字体。
+<vertical>	<small>[explicit typographical]</small><br>Vertically organized column.<br>垂直组织的列。
+<column1>	<small>[explicit typographical]</small><br>Vertically organized column — only part of a table which needs to be completed. Used once.<br>垂直组织的列——仅表格中需要完成的部分。使用一次。
+<...type>	<small>[explicit typographical]</small><br>A series of tags, many unique, designating certain unusual fonts.<br>一系列标签，多数为唯一值，用于指定某些特殊字体。
+<antiquetype>	<small>[explicit typographical]</small><br>Antique type font.<br>古董字体。
+<blacklettertype>	<small>[explicit typographical]</small><br>Blackletter type font.<br>黑字母字体。
+<boldfacetype>	<small>[explicit typographical]</small><br>Boldface type font.<br>粗体类型字体。
+<bourgeoistype>	<small>[explicit typographical]</small><br>Bourgeois type font.<br>布尔乔亚字体。
+<boxtype>	<small>[explicit typographical]</small><br>Box type font.<br>盒子字体。
+<clarendontype>	<small>[explicit typographical]</small><br>Clarendon type font.<br>克莱伦登字体。
+<englishtype>	<small>[explicit typographical]</small><br>English type font.<br>英式字体。
+<extendedtype>	<small>[explicit typographical]</small><br>Extended type font.<br>扩展字体。
+<frenchelzevirtype>	<small>[explicit typographical]</small><br>French Elzevir type font.<br>法式埃尔泽菲尔字体。
+<germantype>	<small>[explicit typographical]</small><br>German type font.<br>德式字体。
+<gothictype>	<small>[explicit typographical]</small><br>Gothic type font.<br>哥特字体。
+<greatprimertype>	<small>[explicit typographical]</small><br>Great primer type font.<br>大普莱默字体。
+<longprimertype>	<small>[explicit typographical]</small><br>Long primer type font.<br>长普莱默字体。
+<miniontype>	<small>[explicit typographical]</small><br>Minion type font.<br>米尼昂字体。
+<nonpareiltype>	<small>[explicit typographical]</small><br>Nonpareil type font.<br>无与伦比字体。
+<oldenglishtype>	<small>[explicit typographical]</small><br>Old English type font.<br>古英语字体。
+<oldstyletype>	<small>[explicit typographical]</small><br>Old style type font.<br>旧样式字体。
+<pearltype>	<small>[explicit typographical]</small><br>Pearl type font.<br>珍珠字体。
+<picatype>	<small>[explicit typographical]</small><br>Pica type font.<br>派卡字体。
+<scripttype>	<small>[explicit typographical]</small><br>Script type font.<br>手写字体。
+<smpicatype>	<small>[explicit typographical]</small><br>Small pica type font.<br>小派卡字体。
+<typewritertype>	<small>[explicit typographical]</small><br>Typewriter type font.<br>打字机字体。
 <altsp>	<small>[semantic content]</small><br>Alternative spelling segment. Almost always contained within square brackets after the main definition segment.<br>替代拼写段落。几乎总是位于主定义段落后方的方括号内
 <ant>	<small>[semantic content]</small><br>Antonym.<br>反义词
 <asp>	<small>[semantic content]</small><br>Alternative spelling. The actual word which is an alternative spelling to the headword.<br>替代拼写。表示与主词条拼写形式不同的实际词汇
@@ -158,7 +208,7 @@
 <headword>	<small>[functional]</small><br>Subtype...<br>下位词
 <simto>	<small>[functional]</small><br>Similar-to...<br>相似于
 <conseq>	<small>[functional]</small><br>Consequence...<br>结果
-<hascons>	<small>[functional]</small><br>-<br>-
+<hascons>	<small>[functional]</small><br>Has consequence...<br>导致...
 <consof>	<small>[functional]</small><br>Consequence of...<br>...的结果
 <part>	<small>[functional]</small><br>Part...<br>部分
 <parts>	<small>[functional]</small><br>Part, plural form...<br>部分，复数形式

@@ -1,0 +1,253 @@
+<!$!>               |Remove this
+<--$-->             |Remove this
+<abbr>              |<b>$</b>
+<adjf>              |<b>$</b>
+<altname>           |"$"
+<altnpluf>          |"$"
+<altsp>             |<i>$</i>
+<amorph>            |<b>$</b>
+<ant>               |<span style="color:blue;">$</span>
+<antiquetype>       |"$"
+<as>                |$
+<asp>               |<i>$</i>
+<au>                |$
+<b>                 |$
+<bio>               |<br><blockquote>$</blockquote>
+<biography>         |<br><blockquote>$</blockquote>
+<blacklettertype>   |"$"
+<bold>              |$
+<boldfacetype>      |"$"
+<booki>             |<i>$</i>
+<bourgeoistype>     |"$"
+<boxtype>           |"$"
+<branchof>          |<span style="color:blue;">$</span>
+<caption>           |<i>$</i>
+<cas>               |$
+<causedby>          |<span style="color:green;">$</span>
+<causedbyp>         |<span style="color:green;">$</span>
+<causes>            |<span style="color:green;">$</span>
+<causesp>           |<span style="color:green;">$</span>
+<cd2>               |<br>$
+<cd>                |<br>$
+<centered>          |<i>$</i>
+<chform>            |$
+<chformi>           |$
+<chname>            |$
+<chreact>           |$
+<city>              |$
+<clarendontype>     |"$"
+<class>             |<span style="color:green;">$</span>
+<cnvto>             |<span style="color:green;">$</span>
+<col>               |<span style="color:green;">$</span>
+<colf>              |<span style="color:green;">$</span>
+<colheads>          |<i>$</i>
+<colp>              |<i>$</i>
+<coltitle>          |<i>$</i>
+<column1>           |
+<comm>              |<small>(comm.)</small> $
+<company>           |$
+<compof>            |<span style="color:green;">$</span>
+<conjf>             |<span style="color:blue;">$</span>
+<conseq>            |<span style="color:green;">$</span>
+<consof>            |<span style="color:green;">$</span>
+<contains>          |<span style="color:green;">$</span>
+<contr>             |<span style="color:green;">$</span>
+<contxt>            |<small>(contxt.)</small> $
+<corpn>             |$
+<corr>              |<span style="color:green;">$</span>
+<country>           |$
+<cp>                |<span style="color:green;">$</span>
+<cref>              |<span style="color:green;">$</span>
+<cs>                |$
+<ct>                |$
+<date>              |$
+<datey>             |$
+<decf>              |<span style="color:blue;">$</span>
+<def2>              |<br>$
+<def>               |<br>$
+<divof>             |<span style="color:blue;">$</span>
+<ecol>              |<i>$</i>
+<edi>               |$
+<emits>             |<span style="color:green;">$</span>
+<englishtype>       |"$"
+<ent>               |$
+<epos>              |$
+<er>                |<span style="color:blue;">$</span>
+<ets>               |<span style="color:green;">$</span>
+<etsep>             |<span style="color:green;">$</span>
+<ety>               |$
+<ex>                |<small>(ex.)</small> $
+<examp>             |<small>(examp.)</small> $
+<exp>               |$
+<extendedtype>      |"$"
+<fam>               |<span style="color:green;">$</span>
+<fexp>              |$
+<figcap>            |<i>$</i>
+<figref>            |<small>(figref.)</small> $
+<figtitle>          |<i>$</i>
+<figure>            |<small>(figure.)</small> $
+<film>              |<i>$</i>
+<fld>               |
+<fr>                |
+<fract>             |$
+<frenchelzevirtype> |
+<fu>                |$
+<funct>             |$
+<gen>               |<i>$</i>
+<geog>              |$
+<germantype>        |"$"
+<gothictype>        |"$"
+<greatprimertype>   |"$"
+<grk>               |<i>$</i>
+<grp>               |
+<h1>                |
+<h2>                |
+<hascons>           |
+<headrow>           |
+<headword>          |
+<hw>                |$
+<hwf>               |
+<hypen>             |
+<i>                 |
+<illu>              |
+<illust>            |<small>(illust.)</small> $
+<img>               |
+<intensi>           |<span style="color:blue;">$</span>
+<inv>               |
+<iref>              |<small>(iref.)</small> $
+<isa>               |
+<it>                |
+<item>              |
+<itran>             |<i>$</i>
+<itrans>            |<i>$</i>
+<jour>              |<i>$</i>
+<kingdom>           |<span style="color:green;">$</span>
+<longprimertype>    |"$"
+<mark>              |<i>$</i>
+<markp>             |<i>$</i>
+<mathex>            |$
+<matrix2x5>         |
+<matrix>            |
+<mcol>              |
+<member>            |
+<members>           |
+<membof>            |
+<method>            |
+<methodfor>         |
+<mhw>{ $ }</mhw>    |[$]
+<miniontype>        |
+<mitem>             |
+<mord>              |
+<mstypec>           |[$]
+<mtable>            |
+<musfig>            |$
+<nmorph>            |
+<nonpareiltype>     |"$"
+<note>              |<small>(note.)</small> $
+<nul>               |
+<oldenglishtype>    |"$"
+<oldstyletype>      |"$"
+<ord>               |<span style="color:green;">$</span>
+<org>               |$
+<p>                 |
+<part>              |
+<partof>            |
+<parts>             |
+<pearltype>         |"$"
+<perf>              |
+<persfn>            |$
+<person>            |$
+<phylum>            |<span style="color:green;">$</span>
+<picatype>          |"$"
+<plain>             |
+<plu>               |$
+<pluf>              |<i>$</i>
+<plw>               |<span style="color:blue;">$</span>
+<point1.5>          |
+<pos>               |<small><i>$</i></small>
+<pr>                |$
+<pre>               |
+<prod>              |<span style="color:green;">$</span>
+<prodby>            |<span style="color:green;">$</span>
+<prodmac>           |<span style="color:green;">$</span>
+<prodp>             |<span style="color:green;">$</span>
+<ptcl>              |
+<publ>              |<i>$</i>
+<q>                 |"$"
+<qau>               |[plaintext]
+<qex>               |$
+<qpers>             |$
+<qperson>           |$
+<ratio>             |$
+<recipr>            |
+<ref>               |<span style="color:blue;">$</span>
+<refs>              |$
+<river>             |$
+<rj>                |<span style="color:green;"><i>$</i></span>
+<root>              |$
+<row>               |
+<sansserif>         |
+<sc>                |
+<scripttype>        |"$"
+<sd>                |<br>- $
+<see>               |$
+<sfield>            |
+<ship>              |<i>$</i>
+<sig>               |
+<simto>             |
+<sing>              |<span style="color:blue;">$</span>
+<singf>             |<small><i></i></small>
+<singw>             |
+<smpicatype>        |"$"
+<sn>                |$
+<source>            |$
+<specif>            |<small><i>$</i></small>
+<spn>               |
+<stage>             |
+<stageof>           |
+<state>             |$
+<str>               |
+<stype>             |<span style="color:blue;">$</span>
+<stypec>            |<span style="color:blue;">$</span>
+<sub>               |<sub>
+<subclass>          |<span style="color:green;">$</span>
+<subfam>            |<span style="color:green;">$</span>
+<subord>            |<span style="color:green;">$</span>
+<suborder>          |<span style="color:green;">$</span>
+<subphylum>         |<span style="color:green;">$</span>
+<subs>              |
+<subtypes>          |
+<sup>               |<sup>
+<supr>              |<sup>
+<sups>              |
+<syn>               |<small>(syn.)</small> $
+<table>             |
+<tabtitle>          |
+<td>                |
+<th>                |
+<title>             |<i>$</i>
+<tr>                |"$"
+<tradename>         |<i>$</i>
+<tran>              |"$"
+<tt>                |
+<ttitle>            |
+<typewritertype>    |"$"
+<uex>               |<small>(uex.)</small> $
+<unit>              |$
+<universbold>       |
+<usage>             |<br>$
+<usedby>            |
+<usedfor>           |
+<uses>              |
+<var>               |<span style="color:green;">$</span>
+<varn>              |<span style="color:green;">$</span>
+<ver>               |<i>$</i>
+<vertical>          |
+<vinc>              |
+<vmorph>            |$
+<w16ns>             |$
+<wf>                |$
+<wnote>             |<small>(wnote.)</small> $
+<wns>               |$
+<wordforms>         |<small>(wordforms.)</small> $
+<xlati>             |"$"
