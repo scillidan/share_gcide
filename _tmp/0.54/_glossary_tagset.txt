@@ -87,24 +87,24 @@
 <figtitle>          |<i>$</i>
 <figure>            |<small>(figure.)</small> $
 <film>              |<i>$</i>
-<fld>               |
-<fr>                |
+<fld>               |<small>$</small>
+<fr>                |<small>(fr.)</small> $
 <fract>             |$
-<frenchelzevirtype> |
+<frenchelzevirtype> |"$"
 <fu>                |$
 <funct>             |$
 <gen>               |<i>$</i>
 <geog>              |$
 <germantype>        |"$"
-<gothictype>        |"$"
+<gothictype>        |"$"D
 <greatprimertype>   |"$"
 <grk>               |<i>$</i>
-<grp>               |
-<h1>                |
-<h2>                |
-<hascons>           |
-<headrow>           |
-<headword>          |
+<grp>               |<span style="color:blue;">$</span>
+<h1>                |<b>$</b>
+<h2>                |<b>$</b>
+<hascons>           |<span style="color:green;">$</span>
+<headrow>           |<b>$</b>
+<headword>          |<span style="color:blue;">$</span>
 <hw>                |$
 <hwf>               |
 <hypen>             |
