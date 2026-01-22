@@ -230,6 +230,6 @@
 <mhw>{ $ }</mhw>                         | [$]
 <mstypec>$</mstypec>                     | [$]
 <qau>$</qau>                             | [plaintext]
-<!$!>                                    | Remove this
-<--$-->                                  | Remove this
-<nul>$</nul>                             | Remove this
+<!$!>                                    | Remove tag and the text inside
+<--$-->                                  | Remove tag and the text inside
+<nul>$</nul>                             | Remove tag and the text inside
