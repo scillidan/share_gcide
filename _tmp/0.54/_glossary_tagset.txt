@@ -36,6 +36,8 @@
 <b>$</b>                                 | $
 <bold>$</bold>                           | $
 <cas>$</cas>                             | $
+<cd2>$</cd2>                             | $
+<cd>$</cd>                               | $
 <chform>$</chform>                       | $
 <chformi>$</chformi>                     | $
 <chname>$</chname>                       | $
@@ -47,6 +49,8 @@
 <cs>$</cs>                               | $
 <date>$</date>                           | $
 <datey>$</datey>                         | $
+<def2>$</def2>                           | $
+<def>$</def>                             | $
 <edi>$</edi>                             | $
 <ent>$</ent>                             | $
 <epos>$</epos>                           | $
@@ -80,13 +84,15 @@
 <river>$</river>                         | $
 <root>$</root>                           | $
 <sc>$</sc>                               | $
+<sd>$</sd>                               | $
 <see>$</see>                             | $
 <sing>$</sing>                           | $
 <sn>$</sn>                               | $
-<source>$</source>                       | $
+<specif>$</specif>                       | $
 <state>$</state>                         | $
 <tt>$</tt>                               | $
 <unit>$</unit>                           | $
+<usage>$</usage>                         | $
 <vertical>$</vertical>                   | $
 <vinc>$</vinc>                           | $
 <vmorph>$</vmorph>                       | $
@@ -102,16 +108,11 @@
 <h1>$</h1>                               | <b>$</b>
 <h2>$</h2>                               | <b>$</b>
 <plw>$</plw>                             | <b>$</b>
+<singf>$</singf>                         | <b>$</b>
 <singw>$</singw>                         | <b>$</b>
 <spn>$</spn>                             | <b>$</b>
-<cd2>$</cd2>                             | <br>$
-<cd>$</cd>                               | <br>$
-<def2>$</def2>                           | <br>$
-<def>$</def>                             | <br>$
-<usage>$</usage>                         | <br>$
-<sd>$</sd>                               | <br>- $
-<bio>$</bio>                             | <br><blockquote>$</blockquote>
-<biography>$</biography>                 | <br><blockquote>$</blockquote>
+<bio>$</bio>                             | <blockquote>$</blockquote>
+<biography>$</biography>                 | <blockquote>$</blockquote>
 <altsp>$</altsp>                         | <i>$</i>
 <asp>$</asp>                             | <i>$</i>
 <booki>$</booki>                         | <i>$</i>
@@ -128,7 +129,6 @@
 <itran>$</itran>                         | <i>$</i>
 <itrans>$</itrans>                       | <i>$</i>
 <jour>$</jour>                           | <i>$</i>
-<mark>$</mark>                           | <i>$</i>
 <markp>$</markp>                         | <i>$</i>
 <mcol>$</mcol>                           | <i>$</i>
 <pluf>$</pluf>                           | <i>$</i>
@@ -139,6 +139,8 @@
 <ver>$</ver>                             | <i>$</i>
 <p>$</p>                                 | <p>$</p>
 <fld>$</fld>                             | <small>$</small>
+<mark>$</mark>                           | <small>$</small>
+<pos>$</pos>                             | <small>($)</small>
 <comm>$</comm>                           | <small>(comm.)</small> $
 <contxt>$</contxt>                       | <small>(contxt.)</small> $
 <ex>$</ex>                               | <small>(ex.)</small> $
@@ -156,9 +158,6 @@
 <uex>$</uex>                             | <small>(uex.)</small> $
 <wnote>$</wnote>                         | <small>(wnote.)</small> $
 <wordforms>$</wordforms>                 | <small>(wordforms.)</small> $
-<pos>$</pos>                             | <small><i>$</i></small>
-<singf>$</singf>                         | <small><i>$</i></small>
-<specif>$</specif>                       | <small><i>$</i></small>
 <ant>$</ant>                             | <span style="color:blue;">$</span>
 <er>$</er>                               | <span style="color:blue;">$</span>
 <grp>$</grp>                             | <span style="color:blue;">$</span>
@@ -229,7 +228,9 @@
 <sups>$</sups>                           | <sup>$</sup>
 <mhw>{ $ }</mhw>                         | [$]
 <mstypec>$</mstypec>                     | [$]
-<qau>$</qau>                             | [plaintext]
+<qau>$</qau>                             | [$]
 <!$!>                                    | Remove tag and the text inside
 <--$-->                                  | Remove tag and the text inside
 <nul>$</nul>                             | Remove tag and the text inside
+[<source>$</source>]                     | <small>[$]</small>
+<br/[<source>$</source>]</p>             | <small>[$]</small>
