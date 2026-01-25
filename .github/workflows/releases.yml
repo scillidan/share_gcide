@@ -42,7 +42,7 @@ jobs:
     - name: Run pyglossary and related processing
       run: |
         # tabfile
-        pyglossary ./gcide/stardict.ifo ./_gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
+        pyglossary ./gcide-0.54/stardict.ifo ./_gcide.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
         # tabfile-formatted
         python text_format.py ./_gcide.txt ./_gcide-formatted.txt
         # stardict
