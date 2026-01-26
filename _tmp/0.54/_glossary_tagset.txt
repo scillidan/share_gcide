@@ -140,6 +140,7 @@
 <p>$</p>                                 | <p>$</p>
 <fld>$</fld>                             | <small>$</small>
 <mark>$</mark>                           | <small>$</small>
+<rj>$</rj>                               |  <small>$</small>
 <pos>$</pos>                             | <small>($)</small>
 <comm>$</comm>                           | <small>(comm.)</small> $
 <contxt>$</contxt>                       | <small>(contxt.)</small> $
@@ -158,6 +159,7 @@
 <uex>$</uex>                             | <small>(uex.)</small> $
 <wnote>$</wnote>                         | <small>(wnote.)</small> $
 <wordforms>$</wordforms>                 | <small>(wordforms.)</small> $
+<xex>$</xex>                             | <small>(xex.)</small> $
 <ant>$</ant>                             | <span style="color:blue;">$</span>
 <er>$</er>                               | <span style="color:blue;">$</span>
 <grp>$</grp>                             | <span style="color:blue;">$</span>
@@ -220,7 +222,6 @@
 <uses>$</uses>                           | <span style="color:green;">$</span>
 <var>$</var>                             | <span style="color:green;">$</span>
 <varn>$</varn>                           | <span style="color:green;">$</span>
-<rj>$</rj>                               | <span style="color:green;"><i>$</i></span>
 <sub>$</sub>                             | <sub>$</sub>
 <subs>$</subs>                           | <sub>$</sub>
 <sup>$</sup>                             | <sup>$</sup>

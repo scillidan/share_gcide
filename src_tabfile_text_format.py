@@ -1,17 +1,16 @@
-#!/usr/bin/env python3
 # Usage: python src_tabfile_text_format.py <input_file> <output_file>
 
 import sys
 import re
 from html import unescape
 
+# Replace control characters
 CONTROL_CHARS_RE = re.compile(r'[\x00-\x1F]')
 
 def remove_control_chars(text: str) -> str:
     return CONTROL_CHARS_RE.sub('', text)
 
-# 1. Character replacement mapping
-CHAR_REPLACEMENTS = [
+glossary_webfont_greek = [
     ("'a`", 'ἄ'),
     ("'a~", 'ἂ'),
     ("'a^", 'ἆ'),
@@ -30,8 +29,12 @@ CHAR_REPLACEMENTS = [
     ('i:', 'ϊ'),
 ]
 
-# 2. Symbol replacement dictionary
-SYMBOL_REPLACEMENTS = {
+def match_chars(text):
+    for pattern, replacement in glossary_webfont_greek:
+        text = text.replace(pattern, replacement)
+    return text
+
+glossary_webfont_symbol = {
     r'<\?/': '⸮',
     r'<hand/': '☞',
     r'<deg/': '°',
@@ -117,43 +120,57 @@ SYMBOL_REPLACEMENTS = {
     r'—': '--',
 }
 
-
 def match_symbols(text):
-    """First group: symbol replacement"""
-    for pattern, replacement in SYMBOL_REPLACEMENTS.items():
+    for pattern, replacement in glossary_webfont_symbol.items():
         text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
-    return text
-
-
-def match_chars(text):
-    """Second group: character replacement (longer patterns first)"""
-    for pattern, replacement in CHAR_REPLACEMENTS:
-        text = text.replace(pattern, replacement)
+    # text = re.sub(r'<([^<>/]+)<ae/', r'\1æ', text)
+    # text = re.sub(r'([^<>/])<ae/', r'\1æ', text)
     return text
 
 
 def match_tags(text):
-    """Complete 184-tag rule coverage"""
+    small_bracket = {
+        'comm': '(comm.)',
+        'contxt': '(contxt.)',
+        'ex': '(ex.)',
+        'examp': '(examp.)',
+        'figref': '(figref.)',
+        'figure': '(figure.)',
+        'fr': '(fr.)',
+        'illu': '(illu.)',
+        'illust': '(illust.)',
+        'img': '(img.)',
+        'iref': '(iref.)',
+        'note': '(note.)',
+        'syn': '(syn.)',
+        'uex': '(uex.)',
+        'wnote': '(wnote.)',
+        'wordforms': '(wordforms.)',
+        'xex': '(xex.)',
+    }
 
-    # ===== Structural cleaning (highest priority) =====
-    text = re.sub(r'</p>\s*$', '', text, flags=re.MULTILINE)
-    text = re.sub(r'<p>\s*(\d+)\.\.', r'\1. <br>', text)
-    text = re.sub(r'<p>\s*', '<br>', text)
-    text = re.sub(r'<b><b>(.*?)</b></b>', r'<b>\1</b>', text, flags=re.DOTALL)
+    for tag, prefix in small_bracket.items():
+        pattern = rf'<{tag}>(.*?)</{tag}>'
+        replacement = rf'<small>{prefix}</small> \1'
+        text = re.sub(pattern, replacement, text, flags=re.DOTALL)
 
-    # ===== Deletion categories =====
-    text = re.sub(r'<!([^>]*?)!>', '', text, flags=re.DOTALL)
-    text = re.sub(r'<--([^>]*)-->', '', text, flags=re.DOTALL)
-    text = re.sub(r'<nul>(.*?)</nul>', '', text, flags=re.DOTALL)
-
-    # ===== Special handling =====
-    text = re.sub(r'<pos>.*?</pos>', '<small>(\1)</small>', text, flags=re.DOTALL)
     text = re.sub(
         r'<point\[(\d{1,2}(?:\.\d)?)\]>(.*?)</point\[\1\]>',
         r'<small>(point\1.)</small> \2',
         text,
         flags=re.DOTALL,
     )
+
+    text = re.sub(r'</p>\s*$', '', text, flags=re.MULTILINE)
+    text = re.sub(r'<p>\s*(\d+)\.\.', r'\1. <br>', text)
+    text = re.sub(r'<p>\s*', '<br>', text)
+    text = re.sub(r'<b><b>(.*?)</b></b>', r'<b>\1</b>', text, flags=re.DOTALL)
+
+    text = re.sub(r'<!([^>]*?)!>', '', text, flags=re.DOTALL)
+    text = re.sub(r'<--([^>]*)-->', '', text, flags=re.DOTALL)
+    text = re.sub(r'<nul>(.*?)</nul>', '', text, flags=re.DOTALL)
+
+    text = re.sub(r'<pos>(.*?)</pos>', r'<small>(\1)</small>', text, flags=re.DOTALL)
     text = re.sub(r'<mhw>\{\s*(.*?)\s*\}</mhw>', r'[\1]', text, flags=re.DOTALL)
     text = re.sub(r'<mstypec>(.*?)</mstypec>', r'[\1]', text, flags=re.DOTALL)
     text = re.sub(r'<qau>(.*?)</qau>', r'[\1]', text, flags=re.DOTALL)
@@ -165,11 +182,6 @@ def match_tags(text):
         flags=re.DOTALL,
     )
 
-    # ===== Special symbols =====
-    text = re.sub(r'<([^<>/]+)<ae/', r'\1æ', text)
-    text = re.sub(r'([^<>/])<ae/', r'\1æ', text)
-
-    # ===== Large tag rules (categorized handling) =====
     rules = {
         'quotes': [
             'altname',
@@ -318,25 +330,13 @@ def match_tags(text):
             'tradename',
             'ver',
         ],
-        'small_prefix': {
-            'comm': '(comm.)',
-            'contxt': '(contxt.)',
-            'ex': '(ex.)',
-            'examp': '(examp.)',
-            'figref': '(figref.)',
-            'figure': '(figure.)',
-            'fr': '(fr.)',
-            'illu': '(illu.)',
-            'illust': '(illust.)',
-            'img': '(img.)',
-            'iref': '(iref.)',
-            'note': '(note.)',
-            'syn': '(syn.)',
-            'uex': '(uex.)',
-            'wnote': '(wnote.)',
-            'wordforms': '(wordforms.)',
-        },
-        'small': ['mark', 'fld'],
+        'small': [
+            'mark',
+            'fld',
+        ],
+        'small_space': [
+            'rj',
+        ],
         'blue': [
             'ant',
             'er',
@@ -405,7 +405,6 @@ def match_tags(text):
         ],
     }
 
-    # Apply all rules (multiple iterations)
     def apply_rules(category, tags, prefix='', suffix='', html_tag=None):
         nonlocal text
         for tag in tags:
@@ -418,34 +417,16 @@ def match_tags(text):
                 repl = r'\1'
             text = re.sub(pattern, repl, text, flags=re.DOTALL)
 
-    # Apply categories
     apply_rules('quotes', rules['quotes'], '"', '"')
     apply_rules('plain', rules['plain'])
     apply_rules('bold', rules['bold'], html_tag='b')
     apply_rules('blockquote', rules['blockquote'], '<blockquote>', '</blockquote>')
     apply_rules('italic', rules['italic'], html_tag='i')
-
-    # small_prefix special handling
-    for tag, prefix in rules['small_prefix'].items():
-        text = re.sub(
-            rf'<{tag}>(.*?)</{tag}>',
-            f'<small>{prefix}</small> \1',
-            text,
-            flags=re.DOTALL,
-        )
     apply_rules('small', rules['small'], '<small>', '</small>')
+    apply_rules('small_space', rules['small_space'], ' <small>', '</small>')
     apply_rules('blue', rules['blue'], '<span style="color:blue;">', '</span>')
     apply_rules('green', rules['green'], '<span style="color:green;">', '</span>')
 
-    # Special: rj
-    text = re.sub(
-        r'<rj>(.*?)</rj>',
-        r'<span style="color:green;"><i>\1</i></span>',
-        text,
-        flags=re.DOTALL,
-    )
-
-    # HTML pass-through
     for tag in ['sub', 'subs', 'sup', 'supr', 'sups']:
         text = re.sub(
             rf'<{tag}>(.*?)</{tag}>', rf'<{tag}>\1</{tag}>', text, flags=re.DOTALL
@@ -455,39 +436,29 @@ def match_tags(text):
 
 
 def match_other(text):
-    """Final version - solves all structural issues"""
     text = re.sub(r'<br/', '<br>', text, flags=re.IGNORECASE)
     text = re.sub(r'<br\s*/?>', '<br>', text, flags=re.IGNORECASE)
-
-    # ✅ Multi-line source → <small>[text]</small>
     text = re.sub(
         r'<br\s*/?\s*>\s*\[\s*<source>\s*(.*?)\s*</source>\s*\]\s*</p>',
         r' <small>[\1]</small>',
         text,
         flags=re.IGNORECASE | re.DOTALL,
     )
-
-    text = re.sub(r'</cd>\s*--\s*<col>', r'</cd><br><col>', text, flags=re.IGNORECASE)
+    text = re.sub(r'>\s*--\s*<col>', r'><br><col>', text, flags=re.IGNORECASE)
     text = re.sub(r'</p>\s*--\s*', r'</cd><br>', text, flags=re.IGNORECASE)
-    
-    # Add space at the end of each line to preserve word boundaries
-    text = re.sub(r'(\S)(\r?\n)(\S)', r'\1 \2\3', text)
-    
     return text.strip()
 
 
 def match_clear(text):
     text = re.sub(r'</p>(?!\s*<[^p])', '', text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'(\S)(\r?\n)(\S)', r'\1 \2\3', text)
     text = re.sub(r'\s+', ' ', text)
     text = re.sub(r'(<br>\s*){2,}', r'<br><br>', text)
     return text.strip()
 
-
 def process_definition(text):
-    """Process single definition"""
     if not text.strip():
         return "[empty definition]"
-
     text = remove_control_chars(text)
     text = unescape(text)
     text = match_other(text)
@@ -499,7 +470,7 @@ def process_definition(text):
 
 
 def parse_entries_raw(full_text):
-    """GCIDE entry parsing"""
+    # GCIDE entry parsing
     lines = full_text.splitlines(keepends=True)
     ent_line_indices = []
     ent_words = []
