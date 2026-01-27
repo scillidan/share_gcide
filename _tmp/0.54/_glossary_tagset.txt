@@ -138,28 +138,28 @@
 <tradename>$</tradename>                 | <i>$</i>
 <ver>$</ver>                             | <i>$</i>
 <p>$</p>                                 | <p>$</p>
-<fld>$</fld>                             | <small>$</small>
-<mark>$</mark>                           | <small>$</small>
 <rj>$</rj>                               |  <small>$</small>
 <pos>$</pos>                             | <small>($)</small>
-<comm>$</comm>                           | <small>(comm.)</small> $
-<contxt>$</contxt>                       | <small>(contxt.)</small> $
-<ex>$</ex>                               | <small>(ex.)</small> $
-<examp>$</examp>                         | <small>(examp.)</small> $
-<figref>$</figref>                       | <small>(figref.)</small> $
-<figure>$</figure>                       | <small>(figure.)</small> $
-<fr>$</fr>                               | <small>(fr.)</small> $
-<illu>$</illu>                           | <small>(illu.)</small> $
-<illust>$</illust>                       | <small>(illust.)</small> $
-<img>$</img>                             | <small>(img.)</small> $
-<iref>$</iref>                           | <small>(iref.)</small> $
-<note>$</note>                           | <small>(note.)</small> $
-<point[num]>$</point[num]>               | <small>(point[num].)</small> $
-<syn>$</syn>                             | <small>(syn.)</small> $
-<uex>$</uex>                             | <small>(uex.)</small> $
-<wnote>$</wnote>                         | <small>(wnote.)</small> $
-<wordforms>$</wordforms>                 | <small>(wordforms.)</small> $
-<xex>$</xex>                             | <small>(xex.)</small> $
+<comm>$</comm>                           | <small>$</small>
+<contxt>$</contxt>                       | <small>$</small>
+<ex>$</ex>                               | <small>$</small>
+<examp>$</examp>                         | <small>$</small>
+<figref>$</figref>                       | <small>$</small>
+<figure>$</figure>                       | <small>$</small>
+<fld>$</fld>                             | <small>$</small>
+<fr>$</fr>                               | <small>$</small>
+<illu>$</illu>                           | <small>$</small>
+<illust>$</illust>                       | <small>$</small>
+<img>$</img>                             | <small>$</small>
+<iref>$</iref>                           | <small>$</small>
+<mark>$</mark>                           | <small>$</small>
+<note>$</note>                           | <small>$</small>
+<point[num]>$</point[num]>               | <small>$</small>
+<syn>$</syn>                             | <small>$</small>
+<uex>$</uex>                             | <small>$</small>
+<wnote>$</wnote>                         | <small>$</small>
+<wordforms>$</wordforms>                 | <small>$</small>
+<xex>$</xex>                             | <small>$</small>
 <ant>$</ant>                             | <span style="color:blue;">$</span>
 <er>$</er>                               | <span style="color:blue;">$</span>
 <grp>$</grp>                             | <span style="color:blue;">$</span>

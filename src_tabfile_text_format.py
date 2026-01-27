@@ -129,31 +129,6 @@ def match_symbols(text):
 
 
 def match_tags(text):
-    small_bracket = {
-        'comm': '(comm.)',
-        'contxt': '(contxt.)',
-        'ex': '(ex.)',
-        'examp': '(examp.)',
-        'figref': '(figref.)',
-        'figure': '(figure.)',
-        'fr': '(fr.)',
-        'illu': '(illu.)',
-        'illust': '(illust.)',
-        'img': '(img.)',
-        'iref': '(iref.)',
-        'note': '(note.)',
-        'syn': '(syn.)',
-        'uex': '(uex.)',
-        'wnote': '(wnote.)',
-        'wordforms': '(wordforms.)',
-        'xex': '(xex.)',
-    }
-
-    for tag, prefix in small_bracket.items():
-        pattern = rf'<{tag}>(.*?)</{tag}>'
-        replacement = rf'<small>{prefix}</small> \1'
-        text = re.sub(pattern, replacement, text, flags=re.DOTALL)
-
     text = re.sub(
         r'<point\[(\d{1,2}(?:\.\d)?)\]>(.*?)</point\[\1\]>',
         r'<small>(point\1.)</small> \2',
@@ -331,8 +306,25 @@ def match_tags(text):
             'ver',
         ],
         'small': [
-            'mark',
+            'comm',
+            'contxt',
+            'ex',
+            'examp',
+            'figref',
+            'figure',
             'fld',
+            'fr',
+            'illu',
+            'illust',
+            'img',
+            'iref',
+            'mark',
+            'note',
+            'syn',
+            'uex',
+            'wnote',
+            'wordforms',
+            'xex',
         ],
         'small_space': [
             'rj',
@@ -437,6 +429,7 @@ def match_tags(text):
 
 def match_other(text):
     text = re.sub(r'<br/', '<br>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<br>', '<br> ', text)
     text = re.sub(r'<br\s*/?>', '<br>', text, flags=re.IGNORECASE)
     text = re.sub(
         r'<br\s*/?\s*>\s*\[\s*<source>\s*(.*?)\s*</source>\s*\]\s*</p>',
@@ -445,15 +438,21 @@ def match_other(text):
         flags=re.IGNORECASE | re.DOTALL,
     )
     text = re.sub(r'>\s*--\s*<col>', r'><br><col>', text, flags=re.IGNORECASE)
+    text = re.sub(r'>\s*--\s*<mcol>', r'><br><mcol>', text, flags=re.IGNORECASE)
     text = re.sub(r'</p>\s*--\s*', r'</cd><br>', text, flags=re.IGNORECASE)
     return text.strip()
 
 
 def match_clear(text):
     text = re.sub(r'</p>(?!\s*<[^p])', '', text, flags=re.IGNORECASE | re.DOTALL)
-    text = re.sub(r'(\S)(\r?\n)(\S)', r'\1 \2\3', text)
+    text = re.sub(r'(\S)\s*\n+\s*(\S)', r'\1 \2', text)
+
+    text = re.sub(r'</p>', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'<b><b>(.*?)</b></b>', r'<b>\1</b>', text, flags=re.DOTALL)
+    text = re.sub(r'\s+<br>', '<br>', text)
+
     text = re.sub(r'\s+', ' ', text)
-    text = re.sub(r'(<br>\s*){2,}', r'<br><br>', text)
+    text = re.sub(r'<br\s*/?>\s*<br\s*/?>+', '<br>', text, flags=re.IGNORECASE)
     return text.strip()
 
 def process_definition(text):
@@ -502,7 +501,7 @@ def parse_entries_raw(full_text):
         )
 
         # Subsequent lines
-        rest_def_parts = ''.join(lines[start_idx + 1:end_idx])
+        rest_def_parts = ' '.join(line.strip() for line in lines[start_idx + 1:end_idx])
 
         raw_def = (first_def_part + rest_def_parts).strip()
         entries.append((word, raw_def))
