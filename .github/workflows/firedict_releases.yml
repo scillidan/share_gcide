@@ -1,0 +1,114 @@
+name: Create Releases (data from FireDict)
+
+on:
+  push:
+    tags:
+      - "*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., v1.0.0)'
+        required: true
+        type: string
+        default: 'w108121'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Determine version
+      id: get_version
+      run: |
+        if [[ "${{ github.event_name }}" == "push" ]]; then
+          echo "version=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+        elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+          echo "version=${{ github.event.inputs.version }}" >> $GITHUB_OUTPUT
+        fi
+        echo "version: ${{ steps.get_version.outputs.version }}"
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y zip
+
+    - name: Install Python packages
+      run: |
+        pip install pyglossary lxml beautifulsoup4 python-idzip tqdm pyicu
+
+    - name: (GCIDE) Download gcide.zip from FireDict
+      run: |
+        curl -LO "http://tovotu.de/data/stardict/gcide.zip"
+
+    - name: (GCIDE) Decompress archive
+      run: |
+        unzip gcide.zip
+
+    - name: Convert with pyglossary and python scripts
+      run: |
+        version="${{ steps.get_version.outputs.version }}"
+        filename=gcide-${version}
+        dictname=GCIDE
+
+        # tabfile
+        pyglossary ./gcide/stardict.ifo ./_${filename}.txt --read-format=Stardict --write-format=Tabfile --name=GCIDE
+
+        # tabfile-formatted
+        python cache/firedict_text_format.py _${filename}.txt _${filename}-formatted.txt
+
+        # stardict
+        pyglossary ./_${filename}-formatted.txt ./${filename}-stardict --read-format=Tabfile --write-format=Stardict --name=${dictname}
+
+        # tabfile-formatted-html2ansi
+        python cache/firedict_html2ansi.py _${filename}-formatted.txt _${filename}-formatted-html2ansi.txt
+
+        # sdcv
+        pyglossary ./_${filename}-formatted-html2ansi.txt ./${filename}-sdcv --read-format=Tabfile --write-format=Stardict --name=${dictname}
+
+        # dictd
+        pyglossary ./_${filename}-formatted-html2ansi.txt ./${filename}-dictd --read-format=Tabfile --write-format=DictOrg --write-options="dictzip=true" --name=${dictname}
+
+        # yomichan
+        pyglossary ./_${filename}-formatted.txt ./${filename}-yomichan.zip --read-format=Tabfile --write-format=Yomichan --name=${dictname}
+
+        # aard2
+        pyglossary ./_${filename}-formatted.txt ./${filename}-aard2.slob --read-format=Tabfile --write-format=Aard2Slob --name=${dictname}
+
+    - name: ZIP stardict
+      run: |
+        for base in *.ifo; do
+          prefix="${base%.ifo}"
+          zip -j "${prefix}.zip" "$prefix".{ifo,dict,idx,syn} 2>/dev/null
+        done
+
+    - name: ZIP dictd
+      run: |
+        for base in *.index; do
+          prefix="${base%.index}"
+          zip -j "${prefix}.zip" "$prefix".{dict.dz,index} 2>/dev/null
+        done
+
+    - name: Generate SHA256 checksums
+      run: |
+        for file in *.{txt,zip,slob}; do
+          sha256sum "$file" > "$file.sha256";
+        done
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ steps.get_version.outputs.version }}
+        name: ${{ steps.get_version.outputs.version }}
+        files: |
+          *.{txt,zip,slob}
