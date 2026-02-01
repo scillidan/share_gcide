@@ -44,16 +44,15 @@ jobs:
         sudo apt-get install -y zip
 
     - name: Install Python packages
-      run: |
-        pip install pyglossary lxml beautifulsoup4 python-idzip tqdm pyicu
+      run: pip install pyglossary lxml beautifulsoup4 python-idzip tqdm pyicu
 
     - name: (GCIDE) Download gcide.zip from FireDict
-      run: |
-        curl -LO "http://tovotu.de/data/stardict/gcide.zip"
+      run: curl -LO "http://tovotu.de/data/stardict/gcide.zip"
 
     - name: (GCIDE) Decompress archive
       run: |
         unzip gcide.zip
+        rm gcide.zip
 
     - name: Convert with pyglossary and python scripts
       run: |
