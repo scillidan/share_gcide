@@ -1,6 +1,7 @@
 # Authors: MiniMax-M2.1🧙‍♂️, perplexity.ai🧙‍♂️, scillidan🤡
 # Usage: python src_tabfile_text_format.py <input_file> <output_file>
 
+import os
 import sys
 import re
 import ast
