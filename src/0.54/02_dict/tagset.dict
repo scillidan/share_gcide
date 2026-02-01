@@ -1,0 +1,260 @@
+<plain>	<small>[explicit typographical]</small><br>Plain font used in the body of a definition — normally not marked, except within fields of a different font.<br>纯字体，用于定义正文——通常不标记，除非在不同字体的字段内。
+<it>	<small>[explicit typographical]</small><br>Italic font used in master files.<br>斜体，用于主文件。
+<i>	<small>[explicit typographical]</small><br>Italic for use in HTML presentation.<br>斜体，用于HTML呈现。
+<bold>	<small>[explicit typographical]</small><br>Bold font used in master files.<br>粗体，用于主文件。
+<b>	<small>[explicit typographical]</small><br>Bold for use in HTML presentation.<br>粗体，用于HTML呈现。
+<colf>	<small>[explicit typographical]</small><br>Collocation font, bold and smaller. Same font as used in collocations.<br>搭配字体，粗体且较小。与搭配词中使用的字体相同。
+<ct>	<small>[explicit typographical]</small><br>Same as `<colf>`, a font similar to that used in collocations. However, this tag is used in a table and could be set to a different font.<br>类似于`<colf>`，与搭配词字体相似，但在表格中使用，可能设置为不同字体。
+<h1>	<small>[explicit typographical]</small><br>HTML heading level 1, largest heading font.<br>HTML标题级别1，最大标题字体。
+<h2>	<small>[explicit typographical]</small><br>HTML heading level 2, second largest heading font.<br>HTML标题级别2，第二标题字体。
+<headrow>	<small>[explicit typographical]</small><br>Marks a row title in a table.<br>标记表格中的行标题。
+<hwf>	<small>[explicit typographical]</small><br>Font the same as the headword, used for non-headword fields. Only used once.<br>与词条标题相同的字体，用于非词条字段。仅使用一次。
+<mitem>	<small>[explicit typographical]</small><br>Multiple items, indicating a set of items in a table.<br>多项内容，表示表格中的一组项目。
+<point ...>	<small>[explicit typographical]</small><br>A series of point size markers, many unique.<br>一系列点大小标记，多数为唯一值。
+<point1.5>	<small>[explicit typographical]</small><br>One of the point size tags, specifying 1.5 point font size.<br>点大小标签之一，指定1.5点字体大小。
+<pre>	<small>[explicit typographical]</small><br>An HTML tag indicating that the enclosed text is of teletype form, preformatted in a uniform-spaced font.<br>HTML标签，表示包围文本为电传形式，以等宽字体预格式化。
+<sc>	<small>[explicit typographical]</small><br>Small caps font, used mostly for "a. d.", "b. c."<br>小型大写字体，主要用于“a. d.”、“b. c.”等。
+<str>	<small>[explicit typographical]</small><br>Groups table data elements in a table.<br>在表格中分组表格数据元素。
+<sub>	<small>[explicit typographical]</small><br>Subscript font.<br>下标字体。
+<subs>	<small>[explicit typographical]</small><br>Subscript font.<br>下标字体。
+<sups>	<small>[explicit typographical]</small><br>Superscript font.<br>上标字体。
+<supr>	<small>[explicit typographical]</small><br>Superscript font.<br>上标字体。
+<sansserif>	<small>[explicit typographical]</small><br>Sans-serif font.<br>无衬线字体。
+<stypec>	<small>[explicit typographical]</small><br>Bold collocation font, and also a subtype.<br>粗体搭配字体，也是一个子类型。
+<tt>	<small>[explicit typographical]</small><br>HTML tag for teletype font.<br>HTML标签，表示电传字体。
+<universbold>	<small>[explicit typographical]</small><br>A squared bold font without serifs approximating the "universe bold" font on the HP Laserjet4...<br>一种无衬线的方形粗体字体，类似于HP Laserjet4上的“universe bold”字体。
+<vertical>	<small>[explicit typographical]</small><br>Vertically organized column.<br>垂直组织的列。
+<column1>	<small>[explicit typographical]</small><br>Vertically organized column — only part of a table which needs to be completed. Used once.<br>垂直组织的列——仅表格中需要完成的部分。使用一次。
+<...type>	<small>[explicit typographical]</small><br>A series of tags, many unique, designating certain unusual fonts.<br>一系列标签，多数为唯一值，用于指定某些特殊字体。
+<antiquetype>	<small>[explicit typographical]</small><br>Antique type font.<br>古董字体。
+<blacklettertype>	<small>[explicit typographical]</small><br>Blackletter type font.<br>黑字母字体。
+<boldfacetype>	<small>[explicit typographical]</small><br>Boldface type font.<br>粗体类型字体。
+<bourgeoistype>	<small>[explicit typographical]</small><br>Bourgeois type font.<br>布尔乔亚字体。
+<boxtype>	<small>[explicit typographical]</small><br>Box type font.<br>盒子字体。
+<clarendontype>	<small>[explicit typographical]</small><br>Clarendon type font.<br>克莱伦登字体。
+<englishtype>	<small>[explicit typographical]</small><br>English type font.<br>英式字体。
+<extendedtype>	<small>[explicit typographical]</small><br>Extended type font.<br>扩展字体。
+<frenchelzevirtype>	<small>[explicit typographical]</small><br>French Elzevir type font.<br>法式埃尔泽菲尔字体。
+<germantype>	<small>[explicit typographical]</small><br>German type font.<br>德式字体。
+<gothictype>	<small>[explicit typographical]</small><br>Gothic type font.<br>哥特字体。
+<greatprimertype>	<small>[explicit typographical]</small><br>Great primer type font.<br>大普莱默字体。
+<longprimertype>	<small>[explicit typographical]</small><br>Long primer type font.<br>长普莱默字体。
+<miniontype>	<small>[explicit typographical]</small><br>Minion type font.<br>米尼昂字体。
+<nonpareiltype>	<small>[explicit typographical]</small><br>Nonpareil type font.<br>无与伦比字体。
+<oldenglishtype>	<small>[explicit typographical]</small><br>Old English type font.<br>古英语字体。
+<oldstyletype>	<small>[explicit typographical]</small><br>Old style type font.<br>旧样式字体。
+<pearltype>	<small>[explicit typographical]</small><br>Pearl type font.<br>珍珠字体。
+<picatype>	<small>[explicit typographical]</small><br>Pica type font.<br>派卡字体。
+<scripttype>	<small>[explicit typographical]</small><br>Script type font.<br>手写字体。
+<smpicatype>	<small>[explicit typographical]</small><br>Small pica type font.<br>小派卡字体。
+<typewritertype>	<small>[explicit typographical]</small><br>Typewriter type font.<br>打字机字体。
+<altsp>	<small>[semantic content]</small><br>Alternative spelling segment. Almost always contained within square brackets after the main definition segment.<br>替代拼写段落。几乎总是位于主定义段落后方的方括号内
+<ant>	<small>[semantic content]</small><br>Antonym.<br>反义词
+<asp>	<small>[semantic content]</small><br>Alternative spelling. The actual word which is an alternative spelling to the headword.<br>替代拼写。表示与主词条拼写形式不同的实际词汇
+<au>	<small>[semantic content]</small><br>Authority or author. Used where an authority is given for a definition...<br>权威或作者。用于标注定义的来源依据
+<bio>	<small>[semantic content]</small><br>Marks a biography. Should be longer than a short mention of who a person was...<br>标记人物传记。内容应超出简短的人物介绍
+<biography>	<small>[semantic content]</small><br>Same as `<bio>`<br>等同于`<bio>`
+<booki>	<small>[semantic content]</small><br>Marks the name of a book, pamphlet, or similar document.<br>标记书籍、小册子或类似文献的名称
+<branchof>	<small>[semantic content]</small><br>A field of knowledge which of which the headword is a division.<br>表示主词条所属的知识领域
+<caption>	<small>[semantic content]</small><br>Caption of a figure or table.<br>图表或表格的标题
+<cas>	<small>[semantic content]</small><br>tags the CAS (Chemical Abstracts Service) registry number for a chemical substance.<br>标记化学物质的CAS（化学文摘社）登记号
+<causes>	<small>[semantic content]</small><br>tags the infectious disease caused by the headword.<br>标记由主词条引起的传染性疾病
+<causesp>	<small>[semantic content]</small><br>Same as `<causes>` without the italic type.<br>等同于`<causes>`但无斜体格式
+<causedbyp>	<small>[semantic content]</small><br>Same as `<causedby>` without the italic type.<br>等同于`<causedby>`但无斜体格式
+<causedby>	<small>[semantic content]</small><br>inverse of `<causes>`...<br>`<causes>`的逆关系
+<centered>	<small>[semantic content]</small><br>(-) Used only for the single letter in the headers to each letter of the alphabet.<br>仅用于字母表各字母标题中的单个字母标记
+<city>	<small>[semantic content]</small><br>marks the proper name of a city. Used only occasionally and not consistently at this stage.<br>标记城市专有名称。当前阶段仅偶尔使用且未完全统一
+<cnvto>	<small>[semantic content]</small><br>Converted to: used to tag substances which are products prepared by conversion from the headword.<br>“转化产物”标签：用于标记通过主词条转化制备的物质
+<colheads>	<small>[semantic content]</small><br>List of heads for the columns of a table.<br>表格列标题列表
+<coltitle>	<small>[semantic content]</small><br>Title of a column in a table.<br>表格中列的名称
+<comm>	<small>[semantic content]</small><br>Comment -- differs from `<note>` in being in-line with the definition paragraph.<br>注释——与`<note>`的区别在于本标签与定义段落内联显示
+<company>	<small>[semantic content]</small><br>Name of a company (commercial firm). Compare `<org>`.<br>公司（商业机构）名称。参见`<org>`
+<compof>	<small>[semantic content]</small><br>Composed of. Tags a substance of which the headword is at least partly composed.<br>“由…组成”标签。标记主词条至少部分构成的物质
+<contains>	<small>[semantic content]</small><br>marks an object contained within the headword.<br>标记包含在主词条内的对象
+<contr>	<small>[semantic content]</small><br>Contrasting word.<br>对比词
+<country>	<small>[semantic content]</small><br>Name of a country (nation) of the world.<br>国家（民族）名称
+<cref>	<small>[semantic content]</small><br>Collocation reference.<br>搭配参照
+<date>	<small>[semantic content]</small><br>A Date, of any type, e.g. `<date>Dec. 25</date>`.<br>任意类型的日期，例如`<date>12月25日</date>`
+<datey>	<small>[semantic content]</small><br>Date-with-year tags a date containing a year.<br>含年份日期标签：标记包含年份的日期
+<def>	<small>[semantic content]</small><br>A definition. The definition may have subfields...<br>定义段落。定义可包含子字段
+<divof>	<small>[semantic content]</small><br>Division of the headword...<br>主词条的细分领域
+<edi>	<small>[semantic content]</small><br>Marks an education institution, a subtype of organization.<br>标记教育机构，属于组织机构的子类
+<emits>	<small>[semantic content]</small><br>Tags a physical object or form of radiation emitted by the headword.<br>标记主词条释放的物理对象或辐射形式
+<figure>	<small>[semantic content]</small><br>(-) Just a place-holder for illustrations, but seldom used.<br>仅作为插图占位符，但很少使用
+<film>	<small>[semantic content]</small><br>Marks the name of a movie film.<br>标记电影名称
+<fld>	<small>[semantic content]</small><br>Field of specialization. Most often used for Zoology and Botany...<br>专业领域。最常用于动物学和植物学
+<geog>	<small>[semantic content]</small><br>Name of a geographical region of any size; if applicable, the more specific `<city>`, `<state>`, or `<country>`<br>任意大小的地理区域名；如果适用，则`<city>`、`<state>`、`<country>`更具体
+<hypen>	<small>[semantic content]</small><br>Hypernym.<br>上位词
+<illu>	<small>[semantic content]</small><br>Illustrative usage...<br>例证用法
+<illust>	<small>[semantic content]</small><br>Illustration place-holder. Seldom used.<br>插图占位符。很少使用
+<img>	<small>[semantic content]</small><br>HTML usage -- points to an image file...<br>HTML用法——指向图像文件
+<intensi>	<small>[semantic content]</small><br>Points to a word whose meaning is an intensified form of the headword.<br>指向含义为主词条强化形式的词汇
+<item>	<small>[semantic content]</small><br>Designates one item in a row of a table...<br>标记表格行中的单个项目
+<itran>	<small>[semantic content]</small><br>Translation into a foreign (non-English) language...<br>外语翻译
+<itrans>	<small>[semantic content]</small><br>Same as `<itran>`<br>等同于`<itran>`
+<jour>	<small>[semantic content]</small><br>Title of a journal (periodical).<br>期刊（定期出版物）名称
+<matrix>	<small>[semantic content]</small><br>Always a filled rectangular array.<br>始终为填充矩形阵列
+<matrix2x5>	<small>[semantic content]</small><br>A 2x5 matrix (2 rows by 5 columns).<br>2x5矩阵（2行5列）
+<mstypec>	<small>[semantic content]</small><br>Multiple synonymous subtypes.<br>多同义子类型
+<mtable>	<small>[semantic content]</small><br>Multiple table, encloses `<table>` figures.<br>多表格标签，包裹`<table>`图形
+<musfig>	<small>[semantic content]</small><br>Music figure. Only in a note under the entry "Figure"...<br>乐谱符号。仅出现在“Figure”词条的注释中
+<p>	<small>[semantic content]</small><br>Paragraph tag, used always in pairs.<br>段落标签，始终成对使用
+<person>	<small>[semantic content]</small><br>Marks the proper name of a person.<br>标记人物专有名称
+<persfn>	<small>[semantic content]</small><br>Marks the name of a person, when only one name (usually the last name) is given.<br>标记人物名称（通常仅显示姓氏的情况）
+<publ>	<small>[semantic content]</small><br>Marks the name of a publication other than book, which is marked by `<booki>`.<br>标记书籍以外出版物的名称（书籍使用`<booki>`标记）
+<qpers>	<small>[semantic content]</small><br>Tags the name of a person who is speaking, within a quotation.<br>在引文中标记说话者姓名
+<qperson>	<small>[semantic content]</small><br>(-) Same as `<qpers>`<br>等同于`<qpers>`
+<cp>	<small>[semantic content]</small><br>Collocation, plain text -- used to tag phrases that should be parsed as a unit...<br>搭配纯文本标签——用于标记应作为整体解析的短语
+<qau>	<small>[semantic content]</small><br>Always right-justified, as described for `<au>`.<br>始终右对齐，如`<au>`标签所述
+<ref>	<small>[semantic content]</small><br>A reference to a word in the vocabulary.<br>词典内词汇参照
+<refs>	<small>[semantic content]</small><br>Marks the set of references used for a longer article...<br>标记长篇文章的参考文献集合
+<river>	<small>[semantic content]</small><br>Marks the name of a river -- a proper name.<br>标记河流专有名称
+<rj>	<small>[semantic content]</small><br>Right justified.<br>右对齐
+<row>	<small>[semantic content]</small><br>Designates a row in a table.<br>标记表格中的行
+<state>	<small>[semantic content]</small><br>Name of a geopolitical state...<br>地缘政治意义上的州/省名称
+<subtypes>	<small>[semantic content]</small><br>Lists subtypes of the headword.<br>列出主词条的子类型
+<sup>	<small>[semantic content]</small><br>Superscript<br>上标
+<supr>	<small>[semantic content]</small><br>Supra...<br>同上文
+<table>	<small>[semantic content]</small><br>Always a filled rectangular array, having `<row>` and `<item>` elements.<br>始终为包含`<row>`和`<item>`元素的填充矩形阵列
+<td>	<small>[semantic content]</small><br>Table datum - one cell in a table.<br>表格数据单元——表格中的单个单元格
+<th>	<small>[semantic content]</small><br>Table header.<br>表头
+<tradename>	<small>[semantic content]</small><br>Tags a commercial Trade name.<br>标记商业商标名称
+<ttitle>	<small>[semantic content]</small><br>Table title (Larger than normal font).<br>表格标题（大于常规字体）
+<-- -->	<small>[functional]</small><br>Comment, not a tag. These segments should be deleted from the written or printed text.<br>注释，不是标签。这些段落在书面或印刷文本中应被删除
+<! !>	<small>[functional]</small><br>A comment. Used to indicate page numbers in the public domain version.<br>注释。用于表示公共领域版本中的页码
+<abbr>	<small>[functional]</small><br>Tag for abbreviations, when mentioned within the definition text.<br>缩写标签，在定义文本中提及
+<adjf>	<small>[functional]</small><br>Tags for the actual adjective or adverb comparatives or superlatives.<br>实际形容词或副词比较级或最高级的标签
+<altname>	<small>[functional]</small><br>Alternative name. Usually for plants or animals...<br>替代名称。通常用于植物或动物
+<altnpluf>	<small>[functional]</small><br>Same as `<altname>`...<br>与<altname>相同
+<amorph>	<small>[functional]</small><br>Adjective morphological segment...<br>形容词形态段
+<as>	<small>[functional]</small><br>A segment occurring within the definitional sentence...<br>出现在定义句中的段
+<cd>	<small>[functional]</small><br>Collocation definition...<br>搭配定义
+<col>	<small>[functional]</small><br>Collocation. A word combination containing the headword...<br>搭配。包含词头的词语组合
+<colp>	<small>[functional]</small><br>Collocation, no typographic significance.<br>搭配，无排版意义
+<conjf>	<small>[functional]</small><br>The conjugated (non-infinitive) forms of verbs...<br>动词的变位形式（非不定式）
+<cs>	<small>[functional]</small><br>Collocation segment. The font and size is normal in a cs...<br>搭配段。字体和大小在cs中正常
+<decf>	<small>[functional]</small><br>Declension form. The actual morphological variants of nouns or pronouns...<br>变格形式。名词或代词的实际形态变体
+<ecol>	<small>[functional]</small><br>Embedded Collocation...<br>嵌入式搭配
+<ent>	<small>[functional]</small><br>Entry field. Gives the headword without accent or syllabication marks...<br>词条字段。给出无重音或音节划分标记的词头
+<er>	<small>[functional]</small><br>Entry reference...<br>词条参考
+<ety>	<small>[functional]</small><br>Etymology. Always contained within square brackets...<br>词源。始终包含在方括号内
+<ets>	<small>[functional]</small><br>Etymological source...<br>词源来源
+<etsep>	<small>[functional]</small><br>Etymological source, being the name of a person or geographical location...<br>词源来源，为人名或地名
+<ex>	<small>[functional]</small><br>Example. An example of usage of the headword...<br>示例。词头用法的示例
+<fr>	<small>[functional]</small><br>Frequency of use, ordinal rank...<br>使用频率，序数排名
+<fu>	<small>[functional]</small><br>First use. A date at or around which the first use of this word...<br>首次使用。该词首次使用的日期或大约日期
+<grk>	<small>[functional]</small><br>Greek transliteration.<br>希腊语转写
+<hw>	<small>[functional]</small><br>A headword. Each main entry begins with the `<hw>` mark, and ends at the next `<hw>` mark...<br>词头。每个主词条以<hw>标记开始，并在下一个<hw>标记处结束
+<mark>	<small>[functional]</small><br>Usage mark. Almost always within square brackets...<br>用法标记。几乎总是在方括号内
+<markp>	<small>[functional]</small><br>A usage mark in plain type (not italic)....<br>普通字体（非斜体）的用法标记
+<mcol>	<small>[functional]</small><br>Multiple collocation...<br>多重搭配
+<mhw>	<small>[functional]</small><br>Multiple headword...<br>多重词头
+<nmorph>	<small>[functional]</small><br>Noun morphology section...<br>名词形态部分
+<note>	<small>[functional]</small><br>Explanatory note...<br>说明性注释
+<plu>	<small>[functional]</small><br>Plural. The "plural" segment starts with a "pl."<br>复数。"复数"段以"pl."开头
+<pos>	<small>[functional]</small><br>Part of speech. Always an abbreviation...<br>词性。始终是缩写
+<epos>	<small>[functional]</small><br>Part of speech, referring to words in etymologies, normal type...<br>词性，指词源中的词，普通字体
+<plw>	<small>[functional]</small><br>Plural word...<br>复数词
+<pr>	<small>[functional]</small><br>Pronunciation. The default font is normal...<br>发音。默认字体为普通字体
+<q>	<small>[functional]</small><br>Quotation...<br>引文
+<qau>	<small>[functional]</small><br>Quotation author.<br>引文作者
+<qex>	<small>[functional]</small><br>Quotation example...<br>引文示例
+<sd>	<small>[functional]</small><br>Subdefinition...<br>子定义
+<ship>	<small>[functional]</small><br>The name of a ship...<br>船名
+<sing>	<small>[functional]</small><br>Singular. Analogous to the `<plu>` segment...<br>单数。类似于<plu>段
+<singw>	<small>[functional]</small><br>Singular word.<br>单数词
+<sn>	<small>[functional]</small><br>Sense number...<br>义项编号
+<source>	<small>[functional]</small><br>Source...<br>来源
+<syn>	<small>[functional]</small><br>Synonyms...<br>同义词
+<usage>	<small>[functional]</small><br>Comparisons of word usage...<br>词语用法比较
+<ver>	<small>[functional]</small><br>Verified for current accuracy...<br>已验证当前准确性
+<vmorph>	<small>[functional]</small><br>Verb morphology (conjugation) segment...<br>动词形态（变位）段
+<wordforms>	<small>[functional]</small><br>Morphological derivatives...<br>形态派生词
+<wf>	<small>[functional]</small><br>Same font as `<hw>` marks the actual morphological forms...<br>与<hw>相同字体，标记实际形态形式
+<def2>	<small>[functional]</small><br>Second definition...<br>第二定义
+<specif>	<small>[functional]</small><br>"Specifically:" Used to mark the words...<br>"具体来说："用于标记词语
+<pluf>	<small>[functional]</small><br>Plural form. Used exclusively to mark...<br>复数形式。专门用于标记
+<uex>	<small>[functional]</small><br>Usage example...<br>用法示例
+<isa>	<small>[functional]</small><br>Supertype (hypernym)...<br>上位词（超类）
+<chform>	<small>[functional]</small><br>Chemical formula.<br>化学式
+<chformi>	<small>[functional]</small><br>Chemical formula same as `<chform>`...<br>化学式，与<chform>相同
+<chname>	<small>[functional]</small><br>Chemical name.<br>化学名称
+<see>	<small>[functional]</small><br>A "see" reference....<br>"参见"参考
+<mathex>	<small>[functional]</small><br>Mathematical expression...<br>数学表达式
+<ratio>	<small>[functional]</small><br>Also a mathematical expression...<br>也是数学表达式
+<singf>	<small>[functional]</small><br>Singular form...<br>单数形式
+<mord>	<small>[functional]</small><br>Morphological derivation.<br>形态派生
+<fract>	<small>[functional]</small><br>Fraction. Used for non-numerical fractions...<br>分数。用于非数值分数
+<exp>	<small>[functional]</small><br>Exponential. Used in mathematical expressions.<br>指数。用于数学表达式
+<xlati>	<small>[functional]</small><br>Translation (e.g. of Greek)...<br>翻译（例如希腊语）
+<tran>	<small>[functional]</small><br>Word translated: the word in italic is translated by a subsequent word...<br>被翻译的词：斜体词由后续词翻译
+<tr>	<small>[functional]</small><br>Translation of the preceding word...<br>前词的翻译
+<fexp>	<small>[functional]</small><br>Functional expression (math)...<br>函数表达式（数学）
+<iref>	<small>[functional]</small><br>Illustration reference...<br>插图参考
+<figref>	<small>[functional]</small><br>Figure reference...<br>图参考
+<figcap>	<small>[functional]</small><br>Figure caption...<br>图标题
+<figtitle>	<small>[functional]</small><br>Figure title...<br>图标题
+<funct>	<small>[functional]</small><br>Tags a mathematical function or expression...<br>标记数学函数或表达式
+<chreact>	<small>[functional]</small><br>Chemical reaction...<br>化学反应
+<ptcl>	<small>[functional]</small><br>Verb Particle...<br>动词小品词
+<tabtitle>	<small>[functional]</small><br>Table Title...<br>表格标题
+<title>	<small>[functional]</small><br>Title of a literary work...<br>文学作品标题
+<root>	<small>[functional]</small><br>Square root...<br>平方根
+<vinc>	<small>[functional]</small><br>Vinculum...<br>分数线
+<nul>	<small>[functional]</small><br>Nultype...<br>空类型
+<cd2>	<small>[functional]</small><br>Second collocation definition...<br>第二搭配定义
+<hypen>	<small>[functional]</small><br>Hypernym...<br>上位词
+<stype>	<small>[functional]</small><br>Subtype...<br>下位词
+<headword>	<small>[functional]</small><br>Subtype...<br>下位词
+<simto>	<small>[functional]</small><br>Similar-to...<br>相似于
+<conseq>	<small>[functional]</small><br>Consequence...<br>结果
+<hascons>	<small>[functional]</small><br>Has consequence...<br>导致...
+<consof>	<small>[functional]</small><br>Consequence of...<br>...的结果
+<part>	<small>[functional]</small><br>Part...<br>部分
+<parts>	<small>[functional]</small><br>Part, plural form...<br>部分，复数形式
+<partof>	<small>[functional]</small><br>Marks a word designating something...<br>标记指定某物的词
+<contxt>	<small>[functional]</small><br>Context...<br>上下文
+<grp>	<small>[functional]</small><br>Marks the name of a group...<br>标记组名
+<membof>	<small>[functional]</small><br>Marks a group of which the headword is a member...<br>标记词头所属的组
+<member>	<small>[functional]</small><br>Marks a member of a group defined by the headword...<br>标记由词头定义的组的成员
+<members>	<small>[functional]</small><br>Same as `<member>`, but marks a plural word...<br>与<member>相同，但标记复数词
+<method>	<small>[functional]</small><br>Designates a special type of definition...<br>指定特殊类型的定义
+<corpn>	<small>[functional]</small><br>Name of a business company...<br>商业公司名称
+<corr>	<small>[functional]</small><br>Correlative...<br>关联词
+<qperson>	<small>[functional]</small><br>Marks the name of a person...<br>标记人名
+<org>	<small>[functional]</small><br>Marks the name of an organization...<br>标记组织名称
+<prod>	<small>[functional]</small><br>produces...<br>产生
+<prodp>	<small>[functional]</small><br>produces (plainfont)...<br>产生（普通字体）
+<prodby>	<small>[functional]</small><br>produced by...<br>由...产生
+<prodmac>	<small>[functional]</small><br>produces...<br>产生
+<stage>	<small>[functional]</small><br>life stage of an organism...<br>生物体的生命阶段
+<stageof>	<small>[functional]</small><br>An organism one of whose life stages...<br>其生命阶段之一的生物体
+<inv>	<small>[functional]</small><br>Inversely related to headword...<br>与词头成反比关系
+<methodfor>	<small>[functional]</small><br>Is a method to...<br>是一种方法
+<examp>	<small>[functional]</small><br>Example or instance of...<br>示例或实例
+<sfield>	<small>[functional]</small><br>Subfield of the headword...<br>词头的子领域
+<stage>	<small>[functional]</small><br>A stage of life of the headword...<br>词头的生命阶段
+<unit>	<small>[functional]</small><br>A unit of measure...<br>计量单位
+<uses>	<small>[functional]</small><br>Tags a tool or method used by the headword...<br>标记词头使用的工具或方法
+<usedfor>	<small>[functional]</small><br>Tags a method or process...<br>标记方法或过程
+<usedby>	<small>[functional]</small><br>Tags a tool or method which uses the headword...<br>标记使用词头的工具或方法
+<perf>	<small>[functional]</small><br>performs...<br>执行
+<recipr>	<small>[functional]</small><br>reciprocal...<br>相互
+<sig>	<small>[functional]</small><br>significance, meaning...<br>意义，含义
+<wns>	<small>[functional]</small><br>WordNet sense...<br>WordNet义项
+<w16ns>	<small>[functional]</small><br>WordNet version 1.6 sense...<br>WordNet 1.6版本义项
+<wnote>	<small>[functional]</small><br>A note related to usage...<br>与用法相关的注释
+<spn>	<small>[biological classifications]</small><br>Species name. Used to mark the taxonomic names of living things...<br>物种名称，用于标记生物的分类学名称
+<kingdom>	<small>[biological classifications]</small><br>Taxonomic biological Kingdom name.<br>分类学生物界名
+<phylum>	<small>[biological classifications]</small><br>Taxonomic phylum name.<br>分类学门名
+<subphylum>	<small>[biological classifications]</small><br>Taxonomic subphylum name.<br>分类学亚门名
+<class>	<small>[biological classifications]</small><br>Taxonomic class name.<br>分类学纲名
+<subclass>	<small>[biological classifications]</small><br>Taxonomic subclass name.<br>分类学亚纲名
+<ord>	<small>[biological classifications]</small><br>Taxonomic order name.<br>分类学目名
+<subord>	<small>[biological classifications]</small><br>Taxonomic suborder name.<br>分类学亚目名
+<suborder>	<small>[biological classifications]</small><br>Taxonomic suborder name.<br>分类学亚目名
+<fam>	<small>[biological classifications]</small><br>Taxonomic family name.<br>分类学科名
+<subfam>	<small>[biological classifications]</small><br>Taxonomic subfamily name.<br>分类学亚科名
+<gen>	<small>[biological classifications]</small><br>Taxonomic genus name.<br>分类学属名
+<var>	<small>[biological classifications]</small><br>Variety. Used to mark subspecies...<br>变种，用于标记亚种
+<varn>	<small>[biological classifications]</small><br>Variety. Used to mark subspecies...<br>变种，用于标记亚种

@@ -1,0 +1,236 @@
+<altname>$</altname>                     | "$"
+<altnpluf>$</altnpluf>                   | "$"
+<antiquetype>$</antiquetype>             | "$"
+<blacklettertype>$</blacklettertype>     | "$"
+<boldfacetype>$</boldfacetype>           | "$"
+<bourgeoistype>$</bourgeoistype>         | "$"
+<boxtype>$</boxtype>                     | "$"
+<clarendontype>$</clarendontype>         | "$"
+<englishtype>$</englishtype>             | "$"
+<extendedtype>$</extendedtype>           | "$"
+<frenchelzevirtype>$</frenchelzevirtype> | "$"
+<germantype>$</germantype>               | "$"
+<gothictype>$</gothictype>               | "$"
+<greatprimertype>$</greatprimertype>     | "$"
+<hwf>$</hwf>                             | "$"
+<longprimertype>$</longprimertype>       | "$"
+<miniontype>$</miniontype>               | "$"
+<nonpareiltype>$</nonpareiltype>         | "$"
+<oldenglishtype>$</oldenglishtype>       | "$"
+<oldstyletype>$</oldstyletype>           | "$"
+<pearltype>$</pearltype>                 | "$"
+<picatype>$</picatype>                   | "$"
+<ptcl>$</ptcl>                           | "$"
+<q>$</q>                                 | "$"
+<sansserif>$</sansserif>                 | "$"
+<scripttype>$</scripttype>               | "$"
+<smpicatype>$</smpicatype>               | "$"
+<subtypes>$</subtypes>                   | "$"
+<tr>$</tr>                               | "$"
+<tran>$</tran>                           | "$"
+<typewritertype>$</typewritertype>       | "$"
+<universbold>$</universbold>             | "$"
+<xlati>$</xlati>                         | "$"
+<as>$</as>                               | $
+<au>$</au>                               | $
+<b>$</b>                                 | $
+<bold>$</bold>                           | $
+<cas>$</cas>                             | $
+<cd2>$</cd2>                             | $
+<cd>$</cd>                               | $
+<chform>$</chform>                       | $
+<chformi>$</chformi>                     | $
+<chname>$</chname>                       | $
+<chreact>$</chreact>                     | $
+<city>$</city>                           | $
+<company>$</company>                     | $
+<corpn>$</corpn>                         | $
+<country>$</country>                     | $
+<cs>$</cs>                               | $
+<date>$</date>                           | $
+<datey>$</datey>                         | $
+<def2>$</def2>                           | $
+<def>$</def>                             | $
+<edi>$</edi>                             | $
+<ent>$</ent>                             | $
+<epos>$</epos>                           | $
+<ety>$</ety>                             | $
+<exp>$</exp>                             | $
+<fexp>$</fexp>                           | $
+<fract>$</fract>                         | $
+<fu>$</fu>                               | $
+<funct>$</funct>                         | $
+<geog>$</geog>                           | $
+<hw>$</hw>                               | $
+<mathex>$</mathex>                       | $
+<method>$</method>                       | $
+<methodfor>$</methodfor>                 | $
+<mord>$</mord>                           | $
+<musfig>$</musfig>                       | $
+<nmorph>$</nmorph>                       | $
+<org>$</org>                             | $
+<perf>$</perf>                           | $
+<persfn>$</persfn>                       | $
+<person>$</person>                       | $
+<plain>$</plain>                         | $
+<plu>$</plu>                             | $
+<pr>$</pr>                               | $
+<pre>$</pre>                             | $
+<qex>$</qex>                             | $
+<qpers>$</qpers>                         | $
+<qperson>$</qperson>                     | $
+<ratio>$</ratio>                         | $
+<refs>$</refs>                           | $
+<river>$</river>                         | $
+<root>$</root>                           | $
+<sc>$</sc>                               | $
+<sd>$</sd>                               | $
+<see>$</see>                             | $
+<sing>$</sing>                           | $
+<sn>$</sn>                               | $
+<specif>$</specif>                       | $
+<state>$</state>                         | $
+<tt>$</tt>                               | $
+<unit>$</unit>                           | $
+<usage>$</usage>                         | $
+<vertical>$</vertical>                   | $
+<vinc>$</vinc>                           | $
+<vmorph>$</vmorph>                       | $
+<w16ns>$</w16ns>                         | $
+<wf>$</wf>                               | $
+<wns>$</wns>                             | $
+<abbr>$</abbr>                           | <b>$</b>
+<adjf>$</adjf>                           | <b>$</b>
+<amorph>$</amorph>                       | <b>$</b>
+<col>$</col>                             | <b>$</b>
+<conjf>$</conjf>                         | <b>$</b>
+<decf>$</decf>                           | <b>$</b>
+<h1>$</h1>                               | <b>$</b>
+<h2>$</h2>                               | <b>$</b>
+<plw>$</plw>                             | <b>$</b>
+<singf>$</singf>                         | <b>$</b>
+<singw>$</singw>                         | <b>$</b>
+<spn>$</spn>                             | <b>$</b>
+<bio>$</bio>                             | <blockquote>$</blockquote>
+<biography>$</biography>                 | <blockquote>$</blockquote>
+<altsp>$</altsp>                         | <i>$</i>
+<asp>$</asp>                             | <i>$</i>
+<booki>$</booki>                         | <i>$</i>
+<centered>$</centered>                   | <i>$</i>
+<colp>$</colp>                           | <i>$</i>
+<ecol>$</ecol>                           | <i>$</i>
+<figcap>$</figcap>                       | <i>$</i>
+<figtitle>$</figtitle>                   | <i>$</i>
+<film>$</film>                           | <i>$</i>
+<gen>$</gen>                             | <i>$</i>
+<grk>$</grk>                             | <i>$</i>
+<i>$</i>                                 | <i>$</i>
+<it>$</it>                               | <i>$</i>
+<itran>$</itran>                         | <i>$</i>
+<itrans>$</itrans>                       | <i>$</i>
+<jour>$</jour>                           | <i>$</i>
+<markp>$</markp>                         | <i>$</i>
+<mcol>$</mcol>                           | <i>$</i>
+<pluf>$</pluf>                           | <i>$</i>
+<publ>$</publ>                           | <i>$</i>
+<ship>$</ship>                           | <i>$</i>
+<title>$</title>                         | <i>$</i>
+<tradename>$</tradename>                 | <i>$</i>
+<ver>$</ver>                             | <i>$</i>
+<p>$</p>                                 | <p>$</p>
+<rj>$</rj>                               |  <small>$</small>
+<pos>$</pos>                             | <small>($)</small>
+<comm>$</comm>                           | <small>$</small>
+<contxt>$</contxt>                       | <small>$</small>
+<ex>$</ex>                               | <small>$</small>
+<examp>$</examp>                         | <small>$</small>
+<figref>$</figref>                       | <small>$</small>
+<figure>$</figure>                       | <small>$</small>
+<fld>$</fld>                             | <small>$</small>
+<fr>$</fr>                               | <small>$</small>
+<illu>$</illu>                           | <small>$</small>
+<illust>$</illust>                       | <small>$</small>
+<img>$</img>                             | <small>$</small>
+<iref>$</iref>                           | <small>$</small>
+<mark>$</mark>                           | <small>$</small>
+<note>$</note>                           | <small>$</small>
+<point[num]>$</point[num]>               | <small>$</small>
+<syn>$</syn>                             | <small>$</small>
+<uex>$</uex>                             | <small>$</small>
+<wnote>$</wnote>                         | <small>$</small>
+<wordforms>$</wordforms>                 | <small>$</small>
+<ant>$</ant>                             | <span style="color:blue;">$</span>
+<er>$</er>                               | <span style="color:blue;">$</span>
+<grp>$</grp>                             | <span style="color:blue;">$</span>
+<headword>$</headword>                   | <span style="color:blue;">$</span>
+<hypen>$</hypen>                         | <span style="color:blue;">$</span>
+<intensi>$</intensi>                     | <span style="color:blue;">$</span>
+<inv>$</inv>                             | <span style="color:blue;">$</span>
+<isa>$</isa>                             | <span style="color:blue;">$</span>
+<ref>$</ref>                             | <span style="color:blue;">$</span>
+<sig>$</sig>                             | <span style="color:blue;">$</span>
+<simto>$</simto>                         | <span style="color:blue;">$</span>
+<stype>$</stype>                         | <span style="color:blue;">$</span>
+<stypec>$</stypec>                       | <span style="color:blue;">$</span>
+<branchof>$</branchof>                   | <span style="color:green;">$</span>
+<causedby>$</causedby>                   | <span style="color:green;">$</span>
+<causedbyp>$</causedbyp>                 | <span style="color:green;">$</span>
+<causes>$</causes>                       | <span style="color:green;">$</span>
+<causesp>$</causesp>                     | <span style="color:green;">$</span>
+<class>$</class>                         | <span style="color:green;">$</span>
+<cnvto>$</cnvto>                         | <span style="color:green;">$</span>
+<colf>$</colf>                           | <span style="color:green;">$</span>
+<compof>$</compof>                       | <span style="color:green;">$</span>
+<conseq>$</conseq>                       | <span style="color:green;">$</span>
+<consof>$</consof>                       | <span style="color:green;">$</span>
+<contains>$</contains>                   | <span style="color:green;">$</span>
+<contr>$</contr>                         | <span style="color:green;">$</span>
+<corr>$</corr>                           | <span style="color:green;">$</span>
+<cp>$</cp>                               | <span style="color:green;">$</span>
+<cref>$</cref>                           | <span style="color:green;">$</span>
+<divof>$</divof>                         | <span style="color:green;">$</span>
+<emits>$</emits>                         | <span style="color:green;">$</span>
+<ets>$</ets>                             | <span style="color:green;">$</span>
+<etsep>$</etsep>                         | <span style="color:green;">$</span>
+<fam>$</fam>                             | <span style="color:green;">$</span>
+<hascons>$</hascons>                     | <span style="color:green;">$</span>
+<kingdom>$</kingdom>                     | <span style="color:green;">$</span>
+<member>$</member>                       | <span style="color:green;">$</span>
+<members>$</members>                     | <span style="color:green;">$</span>
+<membof>$</membof>                       | <span style="color:green;">$</span>
+<ord>$</ord>                             | <span style="color:green;">$</span>
+<part>$</part>                           | <span style="color:green;">$</span>
+<partof>$</partof>                       | <span style="color:green;">$</span>
+<parts>$</parts>                         | <span style="color:green;">$</span>
+<phylum>$</phylum>                       | <span style="color:green;">$</span>
+<prod>$</prod>                           | <span style="color:green;">$</span>
+<prodby>$</prodby>                       | <span style="color:green;">$</span>
+<prodmac>$</prodmac>                     | <span style="color:green;">$</span>
+<prodp>$</prodp>                         | <span style="color:green;">$</span>
+<recipr>$</recipr>                       | <span style="color:green;">$</span>
+<sfield>$</sfield>                       | <span style="color:green;">$</span>
+<stage>$</stage>                         | <span style="color:green;">$</span>
+<stageof>$</stageof>                     | <span style="color:green;">$</span>
+<subclass>$</subclass>                   | <span style="color:green;">$</span>
+<subfam>$</subfam>                       | <span style="color:green;">$</span>
+<subord>$</subord>                       | <span style="color:green;">$</span>
+<suborder>$</suborder>                   | <span style="color:green;">$</span>
+<subphylum>$</subphylum>                 | <span style="color:green;">$</span>
+<usedby>$</usedby>                       | <span style="color:green;">$</span>
+<usedfor>$</usedfor>                     | <span style="color:green;">$</span>
+<uses>$</uses>                           | <span style="color:green;">$</span>
+<var>$</var>                             | <span style="color:green;">$</span>
+<varn>$</varn>                           | <span style="color:green;">$</span>
+<sub>$</sub>                             | <sub>$</sub>
+<subs>$</subs>                           | <sub>$</sub>
+<sup>$</sup>                             | <sup>$</sup>
+<supr>$</supr>                           | <sup>$</sup>
+<sups>$</sups>                           | <sup>$</sup>
+<mhw>{ $ }</mhw>                         | [$]
+<mstypec>$</mstypec>                     | [$]
+<qau>$</qau>                             | [$]
+<!$!>                                    | Remove tag and the text inside
+<--$-->                                  | Remove tag and the text inside
+<nul>$</nul>                             | Remove tag and the text inside
+[<source>$</source>]                     | <small>[$]</small>
+<br/[<source>$</source>]</p>             | <small>[$]</small>

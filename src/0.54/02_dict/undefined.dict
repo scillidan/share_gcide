@@ -1,0 +1,76 @@
+<xex>	example, marks example words/phrases in definitions<br>示例，在定义中标记示例词语或短语
+<nbsp/	non-breaking space<br>内联空格
+<or/	or<br>或
+<and/	and<br>和
+<bar/	horizontal bar<br>横条
+<colbreak/	column break<br>分栏
+<colret/	column return<br>列回车
+<downslur/	down slur<br>下降连音线
+<upslur/	up slur<br>上升连音线
+<dele/	delete<br>删除符号
+<asterism/	⁂<br>asterism<br>三星标
+<dagger/	†<br>dagger<br>剑标
+<iques/	¿<br>inverted question mark<br>倒问号
+<mdash/	—<br>em dash<br>长破折号
+<para/	¶<br>pilcrow<br>段落符
+<ai/	aɪ<br>ai diphthong sound<br>双元音ai
+<ait/	ậ<br>a circumflex with dot underneath<br>带扬抑符和下点符的a
+<eit/	ệ<br>e circumflex with dot underneath<br>带扬抑符和下点符的e
+<etil/	ẽ<br>e with tilde above<br>带波浪符的e
+<hsdot/	ḥ<br>h with dot underneath<br>带下点符的h
+<lsdot/	ḷ<br>l with dot underneath<br>带下点符的l
+<mdot/	ṃ<br>m with dot underneath<br>带下点符的m
+<msdot/	ṃ<br>m with dot underneath<br>带下点符的m
+<ncir/	n̂<br>n circumflex<br>带扬抑符的n
+<oocr/	ŏŏ<br>oo with crescent above<br>带短音符的oo
+<oomac/	ōō<br>oo with macron<br>带长音符的oo
+<udd/	ʌ<br>open-mid back unrounded vowel<br>中开后不圆唇元音
+<usdot/	ụ<br>u with dot underneath<br>带下点符的u
+<ycr/	y̆<br>y with crescent above<br>带短音符的y
+<zdot/	ż<br>z with dot above<br>带点的z
+<zsdot/	ẕ<br>z with dot underneath<br>带下点符的z
+<schwa/	ə<br>schwa<br>中央元音
+<cacute/	ć<br>c with acute accent<br>带尖音符的c
+<ccar/	č<br>c with caron<br>带抑扬符的c
+<csdot/	c̣<br>c with dot underneath<br>带下点符的c
+<add/	‿<br>add<br>添加。表示连读
+<asper/	῾<br>spiritus asper<br>粗糙气息
+<breve/	˘<br>breve accent<br>短音符
+<umlaut/	¨<br>dieresis<br>分音符
+<ffllig/	ﬀ<br>ff ligature<br>ff连字
+<filig/	ﬁ<br>fi ligature<br>fi连字
+<fllig/	ﬂ<br>fl ligature<br>fl连字
+<crev/	Ↄ<br>Roman numeral reversed C, meaning 200<br>古罗马数字变体倒置C，表示200
+<digamma/	ϝ<br>digamma<br>古希腊字母迪伽玛
+<sigmat/	ς<br>sigmate<br>词尾形式的西格马
+<dot/	.<br>dot<br>点符号
+<gt/	><br>greater than<br>大于
+<lt/	<<br>less than<br>小于
+<lbrace2/	{<br>left curly brace<br>左大括号
+<rbrace2/	}<br>right curly brace<br>右大括号
+<cuberoot/	∛<br>cube root<br>立方根
+<integral2l/	∫<br>integration<br>积分
+<min/	'<br>minute of arc<br>角分
+<nabla/	∇<br>nabla<br>向量微分算子
+<times/	×<br>times<br>乘号
+<ounceap/	℥<br>apothecaries' ounce<br>药衡盎司
+<natural/	♮<br>natural sign<br>还原号
+<pause/	𝄐<br>pause<br>延长记号
+<rarr/	→<br>right arrow<br>右箭头
+<leo/	♌<br>leo zodiac sign<br>狮子座符号
+<libra/	♎<br>libra zodiac sign<br>天秤座符号
+<pisces/	♓<br>pisces zodiac sign<br>双鱼座符号
+<sagittarius/	♐<br>sagittarius zodiac sign<br>射手座符号
+<scorpio/	♏<br>scorpio zodiac sign<br>天蝎座符号
+<taurus/	♉<br>taurus zodiac sign<br>金牛座符号
+<virgo/	♍<br>virgo zodiac sign<br>处女座符号
+<aquarius/	♒<br>aquarius zodiac sign<br>水瓶座符号
+<aries/	♈<br>aries zodiac sign<br>白羊座符号
+<cancer/	♋<br>cancer zodiac sign<br>巨蟹座符号
+<capricorn/	♑<br>capricorn zodiac sign<br>摩羯座符号
+<sun/	☉<br>sun<br>太阳
+<jupiter/	♃<br>jupiter<br>木星
+<mercury/	☿<br>mercury<br>水星
+<male/	♂<br>male<br>雄性
+<astascending/	☊<br>ascending node<br>升交点
+<astdescending/	☋<br>descending node<br>降交点

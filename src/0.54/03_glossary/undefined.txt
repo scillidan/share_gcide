@@ -1,0 +1,76 @@
+<xex>$</xex>    | <small>$</small>
+<nbsp/          |  
+<or/            | or
+<and/           | and
+<bar/           | "horizontal bar"
+<colbreak/      | "column break"
+<colret/        | "column return"
+<downslur/      | "down slur"
+<upslur/        | "up slur"
+<dele/          | <span class="mirror">d</span>
+<ounceap/       | ℥ 
+<asterism/      | ⁂
+<dagger/        | †
+<iques/         | ¿
+<mdash/         | —
+<para/          | ¶
+<ai/            | aɪ
+<ait/           | ậ
+<eit/           | ệ
+<etil/          | ẽ
+<hsdot/         | ḥ
+<lsdot/         | ḷ
+<mdot/          | ṃ
+<msdot/         | ṃ
+<ncir/          | n̂
+<oocr/          | ŏŏ
+<oomac/         | ōō
+<udd/           | ʌ
+<usdot/         | ụ
+<ycr/           | y̆
+<zdot/          | ż
+<zsdot/         | ẕ
+<schwa/         | ə
+<cacute/        | ć
+<ccar/          | č
+<csdot/         | c̣
+<add/           | ‿
+<asper/         | ῾
+<breve/         | ˘
+<umlaut/        | ¨
+<ffllig/        | ﬀ
+<filig/         | ﬁ
+<fllig/         | ﬂ
+<crev/          | Ↄ
+<digamma/       | ϝ
+<sigmat/        | ς
+<dot/           | .
+<gt/            | >
+<lt/            | <
+<lbrace2/       | {
+<rbrace2/       | }
+<cuberoot/      | ∛
+<integral2l/    | ∫
+<min/           | '
+<nabla/         | ∇
+<times/         | ×
+<natural/       | ♮
+<pause/         | 𝄐
+<rarr/          | →
+<leo/           | ♌
+<libra/         | ♎
+<pisces/        | ♓
+<sagittarius/   | ♐
+<scorpio/       | ♏
+<taurus/        | ♉
+<virgo/         | ♍
+<aquarius/      | ♒
+<aries/         | ♈
+<cancer/        | ♋
+<capricorn/     | ♑
+<sun/           | ☉
+<jupiter/       | ♃
+<mercury/       | ☿
+<male/          | ♂
+<astascending/  | ☊
+<astdescending/ | ☋
