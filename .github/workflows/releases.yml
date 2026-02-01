@@ -54,6 +54,7 @@ jobs:
           filename=gcide-${version}
           wget https://ftp.gnu.org/gnu/gcide/${filename}.zip
           unzip ${filename}.zip
+          rm ${filename}.zip
 
       - name: Convert with pyglossary and python scripts
         run: |
