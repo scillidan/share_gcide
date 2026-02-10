@@ -591,6 +591,7 @@ def match_other(text):
         text,
         flags=re.IGNORECASE | re.DOTALL,
     )
+    text = re.sub(r"\.\s*--\s*<col>", r"><br><col>", text, flags=re.IGNORECASE)
     text = re.sub(r">\s*--\s*<col>", r"><br><col>", text, flags=re.IGNORECASE)
     text = re.sub(r">\s*--\s*<mcol>", r"><br><mcol>", text, flags=re.IGNORECASE)
     text = re.sub(r"</p>\s*--\s*", r"</cd><br>", text, flags=re.IGNORECASE)
